@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unix-user-mapping serviceName="guacamole">
+    <config name="Guacamole Client" protocol="rdp">
+        <param name="username" value="${GUAC_USERNAME}" />
+	<param name="password" value="${GUAC_PASSWORD}" />
+        <param name="hostname" value="127.0.0.1" />
+        <param name="port" value="3389" />
+        <param name="color-depth" value="16" />
+	<param name="ignore-cert" value="true" />
+    </config>
+    <user name="abc">
+        <config-ref name="Guacamole Client" />
+    </user>
+    <group name="abc">
+        <config-ref name="Guacamole Client" />
+    </group>
+</unix-user-mapping>

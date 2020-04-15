@@ -1,0 +1,19 @@
+#!/bin/execlineb -P
+
+# with-contenv
+s6-envdir -fn -- /var/run/s6/container_environment
+importas -i TOMCAT_VER TOMCAT_VER
+
+# Redirect stderr to stdout.
+fdmove -c 2 1
+
+# Set environment
+s6-setuidgid tomcat
+s6-env JAVA_HOME=/usr/lib/jvm/default-java
+ JAVA_JRE=/usr/lib/jvm/default-java
+ CATALINA_BASE=/var/lib/${TOMCAT_VER}
+ CATALINA_HOME=/usr/share/${TOMCAT_VER}
+ HOME=/var/lib/${TOMCAT_VER}
+
+# Run guacamole
+/usr/share/${TOMCAT_VER}/bin/catalina.sh run
