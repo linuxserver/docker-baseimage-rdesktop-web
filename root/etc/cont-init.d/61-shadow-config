@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+if [ -f /config/shadow ] && [ "$(md5sum /config/shadow| cut -c -32)" != "$(md5sum /etc/shadow| cut -c -32)" ]; then
+	cp /config/shadow /etc/shadow
+	chown root:shadow /etc/shadow
+	chmod 640 /etc/shadow
+fi 	  

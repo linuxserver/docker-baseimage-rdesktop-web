@@ -112,6 +112,7 @@ RUN \
 	-L "http://security.ubuntu.com/ubuntu/pool/universe/libp/libpam4j/libpam4j-java_1.4-2+deb8u1build0.16.04.1_all.deb" && \
  dpkg -i /tmp/libpam.deb && \
  echo "**** cleanup ****" && \
+ mv /usr/bin/passwd /usr/bin/passwdbin && \
  apt-get autoclean && \
  rm -rf \
         /var/lib/apt/lists/* \
