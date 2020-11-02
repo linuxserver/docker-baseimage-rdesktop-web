@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:bionic as builder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic as builder
 
 ARG GUACD_VERSION=1.1.0
 
@@ -59,7 +59,7 @@ RUN \
 	/tmp/out/guacd_${GUACD_VERSION}.deb
 
 # nodejs builder
-FROM lsiobase/ubuntu:bionic as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic as nodebuilder
 ARG GCLIENT_RELEASE
 
 RUN \
@@ -94,7 +94,7 @@ RUN \
  npm install 
 
 # runtime stage
-FROM lsiobase/rdesktop:bionic
+FROM ghcr.io/linuxserver/baseimage-rdesktop:bionic
 
 # set version label
 ARG BUILD_DATE
