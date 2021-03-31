@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-bionic as builder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal as builder
 
 ARG GUACD_VERSION=1.1.0
 
@@ -59,7 +59,7 @@ RUN \
 	/tmp/out/guacd_${GUACD_VERSION}.deb
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-bionic as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal as nodebuilder
 ARG GCLIENT_RELEASE
 
 RUN \
@@ -68,7 +68,7 @@ RUN \
  apt-get install -y \
 	gnupg && \
  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x bionic main' \
+ echo 'deb https://deb.nodesource.com/node_12.x focal main' \
 	> /etc/apt/sources.list.d/nodesource.list && \
  apt-get update && \
  apt-get install -y \
@@ -94,7 +94,7 @@ RUN \
  npm install 
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-bionic
+FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-focal
 
 # set version label
 ARG BUILD_DATE
@@ -116,7 +116,7 @@ RUN \
  apt-get install -y \
 	gnupg && \
  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x bionic main' \
+ echo 'deb https://deb.nodesource.com/node_12.x focal main' \
         > /etc/apt/sources.list.d/nodesource.list && \
  apt-get update && \
  DEBIAN_FRONTEND=noninteractive \
