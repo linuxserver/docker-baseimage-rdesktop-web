@@ -1,78 +1,74 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-bionic as builder
+# guacamole builder
+FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.13 as guacbuilder
 
 ARG GUACD_VERSION=1.1.0
 
-COPY /buildroot /
-
 RUN \
  echo "**** install build deps ****" && \
- apt-get update && \
- apt-get install -qy --no-install-recommends \
+ apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+	ossp-uuid-dev && \
+ apk add --no-cache \
+	cairo-dev \
+	libjpeg-turbo-dev \
+	libpng-dev \
+	ffmpeg-dev \
+	freerdp-dev \
+	openssl-dev \
+	pulseaudio-dev \
+	libvorbis-dev \	
+	libwebp-dev \
+	perl \
+	cunit-dev \
 	autoconf \
 	automake \
-	checkinstall \
-	freerdp2-dev \
-	g++ \
-	gcc \
-	git \
-	libavcodec-dev \
-	libavutil-dev \
-	libcairo2-dev \
-	libjpeg-turbo8-dev \
-	libogg-dev \
-	libossp-uuid-dev \
-	libpulse-dev \
-	libssl-dev \
-	libswscale-dev \
-	libtool \
-	libvorbis-dev \
-	libwebsockets-dev \
-	libwebp-dev \
-	make
+	alpine-sdk
 
 RUN \
- echo "**** prep build ****" && \
- mkdir /tmp/guacd && \
- git clone https://github.com/apache/guacamole-server.git /tmp/guacd && \
- echo "**** build guacd ****" && \
- cd /tmp/guacd && \
- git checkout ${GUACD_VERSION} && \
- autoreconf -fi && \
- ./configure --prefix=/usr && \
- make -j 2 && \
- mkdir -p /tmp/out && \
- /usr/bin/list-dependencies.sh \
-	"/tmp/guacd/src/guacd/.libs/guacd" \
-	$(find /tmp/guacd | grep "so$") \
-	> /tmp/out/DEPENDENCIES && \
- PREFIX=/usr checkinstall \
-	-y \
-	-D \
-	--nodoc \
-	--pkgname guacd \
-	--pkgversion "${GUACD_VERSION}" \
-	--pakdir /tmp \
-	--exclude "/usr/share/man","/usr/include","/etc" && \
- mkdir -p /tmp/out && \
- mv \
-	/tmp/guacd_${GUACD_VERSION}-*.deb \
-	/tmp/out/guacd_${GUACD_VERSION}.deb
+ echo "**** compile guacamole ****" && \
+ mkdir /buildout && \
+ mkdir /tmp/guac && \
+ cd /tmp/guac && \
+ wget \
+	http://apache.org/dyn/closer.cgi?action=download\&filename=guacamole/${GUACD_VERSION}/source/guacamole-server-${GUACD_VERSION}.tar.gz \
+	-O guac.tar.gz && \
+ tar -xf guac.tar.gz && \
+ cd guacamole-server-${GUACD_VERSION} && \
+ ./configure \
+	--disable-guacenc \
+	--disable-guaclog \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--mandir=/usr/share/man \
+	--localstatedir=/var \
+	--enable-static \
+	--with-libavcodec \
+	--with-libavutil \
+	--with-libswscale \
+	--with-ssl \
+	--without-winsock \
+	--with-vorbis \
+	--with-pulse \
+	--without-pango \
+	--without-terminal \
+	--without-vnc \
+	--with-rdp \
+	--without-ssh \
+	--without-telnet \
+	--with-webp \
+	--without-websockets && \
+ make && \
+ make DESTDIR=/buildout install
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-bionic as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.13 as nodebuilder
 ARG GCLIENT_RELEASE
 
 RUN \
  echo "**** install build deps ****" && \
- apt-get update && \
- apt-get install -y \
-	gnupg && \
- curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x bionic main' \
-	> /etc/apt/sources.list.d/nodesource.list && \
- apt-get update && \
- apt-get install -y \
-	nodejs 
+ apk add --no-cache \
+	curl \
+	nodejs \
+	npm 
 
 RUN \
  echo "**** grab source ****" && \
@@ -91,53 +87,37 @@ RUN \
 RUN \
  echo "**** install node modules ****" && \
  cd /gclient && \
- npm install 
+ npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-bionic
+FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-alpine
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG GUACD_VERSION=1.1.0
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
 # Copy build outputs
-COPY --from=builder /tmp/out /tmp/out
 COPY --from=nodebuilder /gclient /gclient
+COPY --from=guacbuilder /buildout /
 
-RUN \
- echo "**** install guacd ****" && \
- dpkg --path-include=/usr/share/doc/${PKG_NAME}/* \
-        -i /tmp/out/guacd_${GUACD_VERSION}.deb && \
+RUN \ 
  echo "**** install packages ****" && \
- apt-get update && \
- apt-get install -y \
-	gnupg && \
- curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x bionic main' \
-        > /etc/apt/sources.list.d/nodesource.list && \
- apt-get update && \
- DEBIAN_FRONTEND=noninteractive \
- apt-get install --no-install-recommends -y \
+ apk add --no-cache \
 	ca-certificates \
-	libfreerdp2-2 \
-	libfreerdp-client2-2 \
-	libossp-uuid16 \
+	font-noto \
+	freerdp-libs \
 	nodejs \
-	obconf \
-	openbox \
-	python \
-	xterm && \
- apt-get install -qy --no-install-recommends \
-	$(cat /tmp/out/DEPENDENCIES) && \
- cd /usr/bin && \
+	openbox && \
+ apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+	ossp-uuid && \
+ echo "**** openbox tweaks ****" && \
+ sed -i \
+	's/NLIMC/NLMC/g' \
+	/etc/xdg/openbox/rc.xml && \
  echo "**** cleanup ****" && \
- apt-get autoclean && \
  rm -rf \
-        /var/lib/apt/lists/* \
-        /var/tmp/* \
         /tmp/*
 
 # add local files
