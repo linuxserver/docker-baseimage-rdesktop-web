@@ -1,0 +1,25 @@
+#!/usr/bin/with-contenv bash
+
+# just sleep if autostart is not enabled
+if [ -z ${GUIAUTOSTART+x} ]; then
+  echo "[guac-init] Auto start not set, application start on login"
+  sleep infinity
+# start abc session by sending a token to guacamole via websockets
+else
+  # make sure services are up
+  until \
+    $(true &>/dev/null </dev/tcp/127.0.0.1/3350) && \
+    $(true &>/dev/null </dev/tcp/127.0.0.1/4822) && \
+    $(true &>/dev/null </dev/tcp/127.0.0.1/${CUSTOM_PORT:=3000}) &&
+    $(true &>/dev/null </dev/tcp/127.0.0.1/3389)
+  do
+    sleep .5
+  done
+  echo "[guac-init] Auto start set, starting application"
+  sleep 1
+  # generate a token based on env vars
+  cd /gclient
+  TOKEN=$(node maketoken.js)
+  websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}/guaclite?token=${TOKEN}
+  sleep infinity
+fi
