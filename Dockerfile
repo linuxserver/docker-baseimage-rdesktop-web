@@ -111,7 +111,8 @@ RUN \
 	nodejs \
 	openbox && \
  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-	ossp-uuid && \
+	ossp-uuid \
+	websocat && \
  echo "**** openbox tweaks ****" && \
  sed -i \
 	's/NLIMC/NLMC/g' \
