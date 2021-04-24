@@ -67,8 +67,14 @@ RUN \
  echo "**** install build deps ****" && \
  apk add --no-cache \
 	curl \
+	g++ \
+	gcc \
+	linux-pam-dev \
+	make \
 	nodejs \
-	npm 
+	npm \
+	python3 
+	
 
 RUN \
  echo "**** grab source ****" && \
@@ -79,7 +85,7 @@ RUN \
  fi && \
  curl -o \
  /tmp/gclient.tar.gz -L \
-	"https://github.com/linuxserver/gclient/archive/${GCLIENT_RELEASE}.tar.gz" && \
+	"https://github.com/linuxserver/gclient/archive/file-explorer.tar.gz" && \
  tar xf \
  /tmp/gclient.tar.gz -C \
 	/gclient/ --strip-components=1
