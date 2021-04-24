@@ -68,11 +68,15 @@ RUN \
  apt-get install -y \
 	gnupg && \
  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x focal main' \
+ echo 'deb https://deb.nodesource.com/node_14.x focal main' \
 	> /etc/apt/sources.list.d/nodesource.list && \
  apt-get update && \
  apt-get install -y \
-	nodejs 
+	g++ \
+	gcc \
+	libpam0g-dev \
+	make \
+	nodejs
 
 RUN \
  echo "**** grab source ****" && \
@@ -83,7 +87,7 @@ RUN \
  fi && \
  curl -o \
  /tmp/gclient.tar.gz -L \
-	"https://github.com/linuxserver/gclient/archive/${GCLIENT_RELEASE}.tar.gz" && \
+	"https://github.com/linuxserver/gclient/archive/file-explorer.tar.gz" && \
  tar xf \
  /tmp/gclient.tar.gz -C \
 	/gclient/ --strip-components=1
@@ -116,7 +120,7 @@ RUN \
  apt-get install -y \
 	gnupg && \
  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
- echo 'deb https://deb.nodesource.com/node_12.x focal main' \
+ echo 'deb https://deb.nodesource.com/node_14.x focal main' \
         > /etc/apt/sources.list.d/nodesource.list && \
  apt-get update && \
  DEBIAN_FRONTEND=noninteractive \
