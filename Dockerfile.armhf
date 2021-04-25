@@ -87,7 +87,7 @@ RUN \
  fi && \
  curl -o \
  /tmp/gclient.tar.gz -L \
-	"https://github.com/linuxserver/gclient/archive/file-explorer.tar.gz" && \
+	"https://github.com/linuxserver/gclient/archive/${GCLIENT_RELEASE}.tar.gz" && \
  tar xf \
  /tmp/gclient.tar.gz -C \
 	/gclient/ --strip-components=1
