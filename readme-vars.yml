@@ -25,7 +25,7 @@ full_custom_readme: |
 
   [![](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)](https://github.com/linuxserver/docker-baseimage-rdesktop-web/blob/master/Dockerfile)
 
-  A custom base image built with [Ubuntu linux](https://www.ubuntu.com/) and [xrdp](http://xrdp.org/)
+  A custom base image built with [Fedora linux](https://getfedora.org/) and [xrdp](http://xrdp.org/)
 
   The following line is only in this repo for loop testing:
 

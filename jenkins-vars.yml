@@ -2,14 +2,11 @@
 
 # jenkins variables
 project_name: docker-baseimage-rdesktop-web
-external_type: github_stable
-release_type: stable
-release_tag: focal
-ls_branch: master
+external_type: os
+release_type: prerelease
+release_tag: fedora
+ls_branch: fedora
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'linuxserver'
-  - EXT_REPO = 'gclient'
   - BUILD_VERSION_ARG = 'XRDP_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-baseimage-rdesktop-web'
@@ -17,7 +14,7 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'lsiobase/rdesktop-web'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/rdesktop-web-base'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/rdesktop-web-base'
-  - DIST_IMAGE = 'ubuntu'
+  - DIST_IMAGE = 'fedora'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'
