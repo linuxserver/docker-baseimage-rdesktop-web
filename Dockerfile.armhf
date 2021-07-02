@@ -66,6 +66,8 @@ ARG GCLIENT_RELEASE
 
 RUN \
   echo "**** install build deps ****" && \
+  dnf groupinstall -y \
+    "Development Tools" && \
   dnf install -y \
     curl \
     nodejs \
