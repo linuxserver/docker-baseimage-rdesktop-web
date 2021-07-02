@@ -70,6 +70,7 @@ RUN \
     "Development Tools" && \
   dnf install -y \
     curl \
+    gcc-c++ \
     nodejs \
     npm \
     pam-devel
