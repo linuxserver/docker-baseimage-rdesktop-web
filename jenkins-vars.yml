@@ -6,6 +6,7 @@ external_type: os
 release_type: prerelease
 release_tag: fedora
 ls_branch: fedora
+use_qemu: true
 repo_vars:
   - BUILD_VERSION_ARG = 'XRDP_VERSION'
   - LS_USER = 'linuxserver'
