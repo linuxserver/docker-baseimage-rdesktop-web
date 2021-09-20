@@ -1,5 +1,10 @@
 #!/usr/bin/with-contenv bash
 
+# set SUBFOLDER to default if unset
+if [ -z ${SUBFOLDER+x} ]; then
+  SUBFOLDER="/"
+fi
+
 # just sleep if autostart is not enabled
 if [ -z ${GUIAUTOSTART+x} ]; then
   echo "[guac-init] Auto start not set, application start on login"
@@ -20,6 +25,6 @@ else
   # generate a token based on env vars
   cd /gclient
   TOKEN=$(node maketoken.js)
-  websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}/guaclite?token=${TOKEN}
+  websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}${SUBFOLDER}guaclite?token=${TOKEN}
   sleep infinity
 fi
