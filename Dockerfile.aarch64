@@ -121,7 +121,7 @@ COPY --from=guacbuilder /buildout /
 
 RUN \ 
   echo "**** install packages ****" && \
-  pacman -Sy --noconfirm \
+  pacman -Sy --noconfirm --needed \
     freerdp \
     nodejs \
     noto-fonts \
@@ -132,6 +132,8 @@ RUN \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
+  pacman -Rsn --noconfirm \
+    $(pacman -Qdtq) || : && \
   rm -rf \
     /tmp/* \
     /var/lib/pacman/sync/*
