@@ -136,6 +136,7 @@ RUN \
     $(pacman -Qdtq) || : && \
   rm -rf \
     /tmp/* \
+    /var/cache/pacman/pkg/* \
     /var/lib/pacman/sync/*
 
 # add local files
