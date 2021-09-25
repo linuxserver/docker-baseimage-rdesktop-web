@@ -82,7 +82,7 @@ lcms2 2.12-1
 ldns 1.7.1-2
 less 1:590-1
 libarchive 3.5.2-1
-libass 0.15.1-1
+libass 0.15.2-1
 libassuan 2.5.5-1
 libasyncns 0.8+3+g68cd5af-3
 libavc1394 0.5.4-4
