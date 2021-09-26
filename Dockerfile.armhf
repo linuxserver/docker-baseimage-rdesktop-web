@@ -119,20 +119,38 @@ LABEL maintainer="thelamer"
 COPY --from=nodebuilder /gclient /gclient
 COPY --from=guacbuilder /buildout /
 
-RUN \ 
+RUN \
   echo "**** install packages ****" && \
   pacman -Sy --noconfirm --needed \
+    base-devel \
     freerdp \
+    git \
     nodejs \
     noto-fonts \
     openbox \
-    websocat && \
+    pavucontrol \
+    websocat \
+    xorg-xmessage && \
+  echo "**** build AUR packages ****" && \
+  cd /tmp && \
+  AUR_PACKAGES="\
+    dbus-x11" && \
+  pacman -Rns --noconfirm -dd dbus && \
+  for PACKAGE in ${AUR_PACKAGES}; do \
+    git clone https://aur.archlinux.org/${PACKAGE}.git && \
+    chown -R abc:abc ${PACKAGE} && \
+    cd ${PACKAGE} && \
+    sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
+    cd /tmp ;\
+  done && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLIMC/NLMC/g' \
     /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   pacman -Rsn --noconfirm \
+    gcc \
+    git \
     $(pacman -Qdtq) || : && \
   rm -rf \
     /tmp/* \
