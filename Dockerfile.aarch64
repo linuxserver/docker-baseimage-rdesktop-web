@@ -151,7 +151,7 @@ RUN \
   pacman -Rsn --noconfirm \
     gcc \
     git \
-    $(pacman -Qdtq) || : && \
+    $(pacman -Qdtq) && \
   rm -rf \
     /tmp/* \
     /var/cache/pacman/pkg/* \
