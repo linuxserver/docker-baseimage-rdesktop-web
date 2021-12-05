@@ -18,14 +18,14 @@ cairo-gobject-1.17.4-3.fc34.x86_64
 cairomm-1.14.2-15.fc34.x86_64
 colord-libs-1.4.5-2.fc34.x86_64
 container-selinux-2.170.0-2.fc34.noarch
-containerd-1.5.7-1.fc34.x86_64
+containerd-1.5.8-1.fc34.x86_64
 coreutils-8.32-30.fc34.x86_64
 coreutils-common-8.32-30.fc34.x86_64
 cracklib-2.9.6-27.fc34.x86_64
 criu-3.16.1-2.fc34.x86_64
 crypto-policies-20210213-1.git5c710c0.fc34.noarch
 cryptsetup-libs-2.3.6-1.fc34.x86_64
-cups-libs-2.3.3op2-7.fc34.x86_64
+cups-libs-2.3.3op2-10.fc34.x86_64
 curl-7.76.1-12.fc34.x86_64
 cyrus-sasl-lib-2.1.27-8.fc34.x86_64
 dbus-1.12.20-3.fc34.x86_64
@@ -247,7 +247,7 @@ mesa-libGL-21.1.8-3.fc34.x86_64
 mesa-libgbm-21.1.8-3.fc34.x86_64
 mesa-libglapi-21.1.8-3.fc34.x86_64
 mesa-vulkan-drivers-21.1.8-3.fc34.x86_64
-moby-engine-20.10.10-1.fc34.x86_64
+moby-engine-20.10.11-1.fc34.x86_64
 mozjs78-78.15.0-1.fc34.x86_64
 mpfr-4.1.0-7.fc34.x86_64
 mtdev-1.1.5-20.fc34.x86_64
