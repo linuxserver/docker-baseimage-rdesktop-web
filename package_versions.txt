@@ -255,8 +255,8 @@ ncurses-base-6.2-4.20200222.fc34.noarch
 ncurses-libs-6.2-4.20200222.fc34.x86_64
 nettle-3.7.3-1.fc34.x86_64
 nftables-0.9.8-3.fc34.x86_64
-nodejs-14.18.1-1.fc34.x86_64
-nodejs-libs-14.18.1-1.fc34.x86_64
+nodejs-14.18.2-1.fc34.x86_64
+nodejs-libs-14.18.2-1.fc34.x86_64
 npth-1.6-6.fc34.x86_64
 openbox-3.6.1-17.fc34.x86_64
 openbox-libs-3.6.1-17.fc34.x86_64
