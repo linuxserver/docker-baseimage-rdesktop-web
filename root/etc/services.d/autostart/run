@@ -13,10 +13,10 @@ if [ -z ${GUIAUTOSTART+x} ]; then
 else
   # make sure services are up
   until \
-    $(true &>/dev/null </dev/tcp/127.0.0.1/3350) && \
-    $(true &>/dev/null </dev/tcp/127.0.0.1/4822) && \
-    $(true &>/dev/null </dev/tcp/127.0.0.1/${CUSTOM_PORT:=3000}) &&
-    $(true &>/dev/null </dev/tcp/127.0.0.1/3389)
+    $(true &>/dev/null </dev/tcp/localhost/3350) && \
+    $(true &>/dev/null </dev/tcp/localhost/4822) && \
+    $(true &>/dev/null </dev/tcp/localhost/${CUSTOM_PORT:=3000}) &&
+    $(true &>/dev/null </dev/tcp/localhost/3389)
   do
     sleep .5
   done
