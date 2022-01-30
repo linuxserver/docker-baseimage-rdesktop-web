@@ -24,7 +24,7 @@ coreutils-common-8.32-30.fc34.x86_64
 cracklib-2.9.6-27.fc34.x86_64
 criu-3.16.1-2.fc34.x86_64
 crypto-policies-20210213-1.git5c710c0.fc34.noarch
-cryptsetup-libs-2.3.6-1.fc34.x86_64
+cryptsetup-libs-2.3.7-1.fc34.x86_64
 cups-libs-2.3.3op2-11.fc34.x86_64
 curl-7.76.1-12.fc34.x86_64
 cyrus-sasl-lib-2.1.27-8.fc34.x86_64
@@ -247,7 +247,7 @@ mesa-libGL-21.1.8-3.fc34.x86_64
 mesa-libgbm-21.1.8-3.fc34.x86_64
 mesa-libglapi-21.1.8-3.fc34.x86_64
 mesa-vulkan-drivers-21.1.8-3.fc34.x86_64
-moby-engine-20.10.11-1.fc34.x86_64
+moby-engine-20.10.12-1.fc34.x86_64
 mozjs78-78.15.0-1.fc34.x86_64
 mpfr-4.1.0-7.fc34.x86_64
 mtdev-1.1.5-20.fc34.x86_64
@@ -270,7 +270,7 @@ orc-0.4.31-4.fc34.x86_64
 p11-kit-0.23.22-3.fc34.x86_64
 p11-kit-trust-0.23.22-3.fc34.x86_64
 pam-1.5.1-7.fc34.x86_64
-pango-1.48.10-2.fc34.x86_64
+pango-1.48.11-1.fc34.x86_64
 pangomm-2.46.2-1.fc34.x86_64
 pavucontrol-4.0-6.fc34.x86_64
 pcre-8.44-3.fc34.1.x86_64
@@ -279,8 +279,8 @@ pcre2-syntax-10.36-4.fc34.noarch
 pigz-2.5-1.fc34.x86_64
 pixman-0.40.0-3.fc34.x86_64
 policycoreutils-3.2-1.fc34.x86_64
-polkit-0.117-3.fc34.1.x86_64
-polkit-libs-0.117-3.fc34.1.x86_64
+polkit-0.117-3.fc34.2.x86_64
+polkit-libs-0.117-3.fc34.2.x86_64
 polkit-pkla-compat-0.1-19.fc34.x86_64
 popt-1.18-4.fc34.x86_64
 procps-ng-3.3.17-1.fc34.1.x86_64
@@ -348,8 +348,8 @@ xorg-x11-server-Xorg-1.20.14-1.fc34.x86_64
 xorg-x11-server-common-1.20.14-1.fc34.x86_64
 xorg-x11-xauth-1.1-8.fc34.x86_64
 xorg-x11-xinit-1.4.0-10.fc34.x86_64
-xorgxrdp-0.2.17-2.fc34.x86_64
-xrdp-0.9.17-5.fc34.x86_64
+xorgxrdp-0.2.18-1.fc34.x86_64
+xrdp-0.9.18-3.fc34.x86_64
 xterm-366-1.fc34.x86_64
 xterm-resize-366-1.fc34.x86_64
 xz-5.2.5-5.fc34.x86_64
