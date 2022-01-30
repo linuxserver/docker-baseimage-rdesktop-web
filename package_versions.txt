@@ -5,7 +5,7 @@ alsa-lib 1.2.6.1-1
 alsa-topology-conf 1.2.5.1-1
 alsa-ucm-conf 1.2.6.3-1
 aom 3.2.0-1
-archlinux-keyring 20220114-1
+archlinux-keyring 20220118-1
 argon2 20190702-4
 at-spi2-atk 2.38.0-1
 at-spi2-core 2.42.0-1
@@ -73,7 +73,7 @@ glibc 2.33-5
 glibmm 2.66.2-1
 gmp 6.2.1-1
 gnupg 2.2.32-2
-gnutls 3.7.2-2
+gnutls 3.7.3-1
 gpgme 1.16.0-3
 graphite 1:1.3.14-1
 grep 3.7-1
@@ -98,7 +98,7 @@ iproute2 5.16.0-1
 iptables 1:1.8.7-1
 iso-codes 4.9.0-1
 jack2 1.9.20-3
-js78 78.15.0-2
+js78 78.15.0-3
 json-c 0.15-2
 json-glib 1.6.6-1
 kbd 2.4.0-2
@@ -122,7 +122,7 @@ libcap-ng 0.8.2-6
 libcloudproviders 0.3.1-2
 libcolord 1.4.5-4
 libcroco 0.6.13-2
-libcups 1:2.4.0-4
+libcups 1:2.4.1-1
 libdaemon 0.14-5
 libdatrie 0.2.13-1
 libdrm 2.4.109-1
@@ -146,7 +146,7 @@ libiec61883 1.2.0-6
 libinput 1.19.3-2
 libjpeg-turbo 2.1.2-1
 libksba 1.6.0-1
-libldap 2.6.0-2
+libldap 2.6.1-1
 libmfx 21.3.5-2
 libmnl 1.0.4-3
 libmodplug 0.8.9.0-3
@@ -158,7 +158,7 @@ libnl 3.5.0-3
 libnsl 2.0.0-1
 libogg 1.3.5-1
 libomxil-bellagio 0.9.3-3
-libp11-kit 0.24.0-2
+libp11-kit 0.24.1-1
 libpcap 1.10.1-1
 libpciaccess 0.16-2
 libpng 1.6.37-3
@@ -249,7 +249,7 @@ openssh 8.8p1-1
 openssl 1.1.1.m-1
 opus 1.3.1-2
 orc 0.4.32-1
-p11-kit 0.24.0-2
+p11-kit 0.24.1-1
 pacman 6.0.1-3
 pacman-mirrorlist 20220116-1
 pam 1.5.2-1
@@ -265,11 +265,11 @@ perl 5.34.0-3
 pinentry 1.2.0-1
 pixman 0.40.0-1
 pkgconf 1.8.0-1
-polkit 0.120-3
+polkit 0.120-4
 popt 1.18-2
 procps-ng 3.3.17-1
 pulseaudio 15.0-1
-python 3.10.1-2
+python 3.10.2-1
 rav1e 0.4.1-1
 readline 8.1.001-1
 rest 0.8.1+r4+ge5ee6ef-1
@@ -289,18 +289,18 @@ sudo 1.9.8.p2-3
 svt-av1 0.9.0-1
 sysfsutils 2.1.1-1
 systemd 250.3-1
-systemd-libs 250.2-2
+systemd-libs 250.3-1
 tar 1.34-1
 tdb 1.4.5-3
 texinfo 6.8-2
 tracker3 3.2.1-2
 tzdata 2021e-1
-util-linux 2.37.2-5
-util-linux-libs 2.37.2-5
+util-linux 2.37.3-1
+util-linux-libs 2.37.3-1
 v4l-utils 1.22.1-1
 vid.stab 1.1-3
 vmaf 1.5.3-1
-vulkan-icd-loader 1.2.202-1
+vulkan-icd-loader 1.2.203-1
 wayland 1.20.0-1
 webrtc-audio-processing 0.3.1-3
 websocat 1.8.1-1
@@ -310,7 +310,7 @@ x265 3.5-1
 xbitmaps 1.1.2-2
 xcb-proto 1.14.1-5
 xcb-util 0.4.0-3
-xf86-input-libinput 1.2.0-2
+xf86-input-libinput 1.2.1-1
 xkeyboard-config 2.34-1
 xorg-fonts-encodings 1.0.5-2
 xorg-server 21.1.3-1
@@ -324,4 +324,4 @@ xvidcore 1.3.7-2
 xz 5.2.5-2
 zimg 3.0.3-1
 zlib 1:1.2.11-5
-zstd 1.5.1-2
+zstd 1.5.2-1
