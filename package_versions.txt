@@ -126,8 +126,8 @@ libfido2-11.10.0-1
 libflac81.3.3-2build1
 libfontconfig12.13.1-4.2ubuntu4
 libfontenc11:1.1.4-1build2
-libfreerdp2-22.4.1+dfsg1-1
-libfreerdp-client2-22.4.1+dfsg1-1
+libfreerdp2-22.4.1+dfsg1-1ubuntu1
+libfreerdp-client2-22.4.1+dfsg1-1ubuntu1
 libfreetype62.11.1+dfsg-1
 libfribidi01.0.8-2ubuntu2
 libfuse22.9.9-5ubuntu2
@@ -225,8 +225,8 @@ libperl5.325.32.1-3ubuntu3
 libpipeline11.5.5-1
 libpixman-1-00.40.0-1build3
 libpng16-161.6.37-3build4
-libpolkit-agent-1-00.105-31
-libpolkit-gobject-1-00.105-31
+libpolkit-agent-1-00.105-31.1
+libpolkit-gobject-1-00.105-31.1
 libprocps82:3.3.17-5ubuntu3
 libproxy1v50.4.17-1build1
 libpsl50.21.0-1.2build1
@@ -275,7 +275,7 @@ libtasn1-64.18.0-4
 libtdb11.4.5-2
 libthai00.1.29-1
 libthai-data0.1.29-1
-libtiff54.3.0-2
+libtiff54.3.0-3
 libtinfo66.3-1
 libtirpc31.3.2-2
 libtirpc-common1.3.2-2
@@ -295,7 +295,7 @@ libwayland-egl11.19.0-2build1
 libwayland-server01.19.0-2build1
 libwebp60.6.1-2.1build1
 libwebrtc-audio-processing10.3.1-0ubuntu4
-libwinpr2-22.4.1+dfsg1-1
+libwinpr2-22.4.1+dfsg1-1ubuntu1
 libwrap07.6.q-31build1
 libx11-62:1.7.2-2
 libx11-data2:1.7.2-2
@@ -369,7 +369,7 @@ perl5.32.1-3ubuntu3
 perl-base5.32.1-3ubuntu3
 perl-modules-5.325.32.1-3ubuntu3
 pinentry-curses1.1.1-1build1
-policykit-10.105-31
+policykit-10.105-31.1
 procps2:3.3.17-5ubuntu3
 publicsuffix20211207.1025-1
 pulseaudio1:15.0+dfsg1-1ubuntu6
@@ -412,7 +412,7 @@ sed4.8-1ubuntu1
 sensible-utils0.0.17
 shared-mime-info2.1-2
 software-properties-common0.99.16
-ssl-cert1.1.1ubuntu1
+ssl-cert1.1.2
 sudo1.9.5p2-3ubuntu2
 systemd249.5-2ubuntu4
 systemd-sysv249.5-2ubuntu4
