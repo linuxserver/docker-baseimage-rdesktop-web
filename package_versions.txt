@@ -107,7 +107,7 @@ kmod 29-1
 krb5 1.19.2-2
 l-smash 2.14.5-2
 lame 3.100-3
-lcms2 2.12-1
+lcms2 2.13-1
 ldns 1.8.1-1
 less 1:590-1
 libarchive 3.5.2-2
