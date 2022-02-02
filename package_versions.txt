@@ -107,7 +107,7 @@ kmod 29-1
 krb5 1.19.2-2
 l-smash 2.14.5-2
 lame 3.100-3
-lcms2 2.13-1
+lcms2 2.13-2
 ldns 1.8.1-1
 less 1:590-1
 libarchive 3.5.2-2
@@ -285,7 +285,7 @@ speexdsp 1.2.0-2
 sqlite 3.37.2-1
 srt 1.4.4-1
 startup-notification 0.12-7
-sudo 1.9.8.p2-3
+sudo 1.9.9-2
 svt-av1 0.9.0-1
 sysfsutils 2.1.1-1
 systemd 250.3-1
