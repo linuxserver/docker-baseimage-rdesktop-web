@@ -17,7 +17,7 @@ cairo-1.17.4-3.fc34.x86_64
 cairo-gobject-1.17.4-3.fc34.x86_64
 cairomm-1.14.2-15.fc34.x86_64
 colord-libs-1.4.5-2.fc34.x86_64
-container-selinux-2.170.0-2.fc34.noarch
+container-selinux-2.173.1-1.fc34.noarch
 containerd-1.5.8-1.fc34.x86_64
 coreutils-8.32-30.fc34.x86_64
 coreutils-common-8.32-30.fc34.x86_64
@@ -168,7 +168,7 @@ libgomp-11.2.1-1.fc34.x86_64
 libgpg-error-1.42-1.fc34.x86_64
 libgudev-237-1.fc34.x86_64
 libgusb-0.3.8-1.fc34.x86_64
-libibverbs-37.0-1.fc34.x86_64
+libibverbs-37.2-2.fc34.x86_64
 libicu-67.1-7.fc34.x86_64
 libidn2-2.3.2-1.fc34.x86_64
 libinput-1.19.2-1.fc34.x86_64
@@ -323,10 +323,10 @@ sqlite-libs-3.34.1-2.fc34.x86_64
 sssd-client-2.5.2-2.fc34.x86_64
 startup-notification-0.12-21.fc34.x86_64
 sudo-1.9.5p2-1.fc34.x86_64
-systemd-248.9-1.fc34.x86_64
-systemd-libs-248.9-1.fc34.x86_64
-systemd-pam-248.9-1.fc34.x86_64
-systemd-rpm-macros-248.9-1.fc34.noarch
+systemd-248.10-1.fc34.x86_64
+systemd-libs-248.10-1.fc34.x86_64
+systemd-pam-248.10-1.fc34.x86_64
+systemd-rpm-macros-248.10-1.fc34.noarch
 tar-1.34-1.fc34.x86_64
 tigervnc-license-1.11.0-12.fc34.noarch
 tigervnc-server-minimal-1.11.0-12.fc34.x86_64
