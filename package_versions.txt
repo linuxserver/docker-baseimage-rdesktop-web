@@ -46,7 +46,7 @@ gdk-pixbuf-2.42.6-r0
 giflib-5.2.1-r0
 glib-2.70.1-r0
 glibmm-2.66.0-r1
-gmp-6.2.1-r0
+gmp-6.2.1-r1
 gnutls-3.7.1-r0
 graphene-1.10.6-r1
 graphite2-1.3.14-r0
