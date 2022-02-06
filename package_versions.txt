@@ -51,7 +51,7 @@ gpg-wks-server2.2.27-3ubuntu1
 grep3.7-1
 groff-base1.22.4-8
 gsettings-desktop-schemas42~alpha-1ubuntu1
-gtk-update-icon-cache3.24.30-3ubuntu2
+gtk-update-icon-cache3.24.31-1ubuntu1
 guacd1.1.0-1
 gzip1.10-4ubuntu2
 hicolor-icon-theme0.17-2
@@ -158,8 +158,8 @@ libgpg-error01.43-3
 libgraphite2-31.3.14-1build1
 libgssapi-krb5-21.19.2-0ubuntu1
 libgstreamer1.0-01.19.90-1
-libgtk-3-03.24.30-3ubuntu2
-libgtk-3-common3.24.30-3ubuntu2
+libgtk-3-03.24.31-1ubuntu1
+libgtk-3-common3.24.31-1ubuntu1
 libharfbuzz0b2.7.4-1ubuntu2
 libhogweed63.7.3-1build1
 libice62:1.0.10-1build1
@@ -283,7 +283,7 @@ libuchardet00.0.7-1build1
 libudev1249.9-0ubuntu2
 libunistring20.9.10-6
 libunwind81.3.2-2build1
-libusb-1.0-02:1.0.24-3build1
+libusb-1.0-02:1.0.25~rc1-1
 libutempter01.2.1-2build1
 libuuid12.37.2-4ubuntu1
 libvorbis0a1.3.7-1build1
