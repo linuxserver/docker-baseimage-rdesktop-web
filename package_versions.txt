@@ -99,7 +99,7 @@ libcryptsetup122:2.4.2-1ubuntu4
 libcups22.3.3op2-7ubuntu2
 libcurl3-gnutls7.81.0-1
 libcurl47.81.0-1
-libdatrie10.2.13-1ubuntu3
+libdatrie10.2.13-2
 libdb5.35.3.28+dfsg1-0.8ubuntu2
 libdbus-1-31.12.20-2ubuntu2
 libdconf10.40.0-2
