@@ -1,5 +1,5 @@
 # guacamole builder
-FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-34 as guacbuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-35 as guacbuilder
 
 ARG GUACD_VERSION=1.1.0
 
@@ -61,7 +61,7 @@ RUN \
   make DESTDIR=/buildout install
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-34 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:arm64v8-35 as nodebuilder
 ARG GCLIENT_RELEASE
 
 RUN \
