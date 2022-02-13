@@ -126,8 +126,8 @@ libfido2-11.10.0-1
 libflac81.3.3-2build1
 libfontconfig12.13.1-4.2ubuntu4
 libfontenc11:1.1.4-1build2
-libfreerdp2-22.4.1+dfsg1-1ubuntu1
-libfreerdp-client2-22.4.1+dfsg1-1ubuntu1
+libfreerdp2-22.4.1+dfsg1-1ubuntu2
+libfreerdp-client2-22.4.1+dfsg1-1ubuntu2
 libfreetype62.11.1+dfsg-1
 libfribidi01.0.8-2ubuntu2
 libfuse22.9.9-5ubuntu2
@@ -164,6 +164,7 @@ libharfbuzz0b2.7.4-1ubuntu2
 libhogweed63.7.3-1build1
 libice62:1.0.10-1build1
 libicu6767.1-7ubuntu1
+libicu7070.1-2
 libid3tag00.15.1b-14
 libidn2-02.3.2-2
 libimlib21.7.4-1build1
@@ -295,7 +296,7 @@ libwayland-egl11.20.0-1
 libwayland-server01.20.0-1
 libwebp71.2.1-6
 libwebrtc-audio-processing10.3.1-0ubuntu4
-libwinpr2-22.4.1+dfsg1-1ubuntu1
+libwinpr2-22.4.1+dfsg1-1ubuntu2
 libwrap07.6.q-31build1
 libx11-62:1.7.2-2
 libx11-data2:1.7.2-2
