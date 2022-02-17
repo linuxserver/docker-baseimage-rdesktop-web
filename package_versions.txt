@@ -240,7 +240,7 @@ mpfr 4.1.0.p13-2
 mtdev 1.1.6-1
 ncurses 6.3-2
 nettle 3.7.3-1
-nodejs 17.3.1-1
+nodejs 17.4.0-1
 noto-fonts 20201226-2
 npth 1.6-3
 openbox 3.6.1-8
