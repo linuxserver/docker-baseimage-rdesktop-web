@@ -179,6 +179,7 @@ p11-kit-0.24.0-r1
 pango-1.48.10-r0
 pangomm-2.42.2-r0
 pavucontrol-5.0-r0
+pciutils-libs-3.7.0-r0
 pcre-8.45-r1
 pixman-0.40.0-r3
 pkgconf-1.8.0-r0
