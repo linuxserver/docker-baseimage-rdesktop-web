@@ -131,18 +131,14 @@ RUN \
     pavucontrol \
     websocat \
     xorg-xmessage && \
-  echo "**** build AUR packages ****" && \
+  echo "**** build dbus-x11 ****" && \
   cd /tmp && \
-  AUR_PACKAGES="\
-    dbus-x11" && \
   pacman -Rns --noconfirm -dd dbus && \
-  for PACKAGE in ${AUR_PACKAGES}; do \
-    git clone https://aur.archlinux.org/${PACKAGE}.git && \
-    chown -R abc:abc ${PACKAGE} && \
-    cd ${PACKAGE} && \
-    sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
-    cd /tmp ;\
-  done && \
+  git clone https://aur.archlinux.org/dbus-x11.git && \
+  chown -R abc:abc dbus-x11 && \
+  cd dbus-x11 && \
+  sed -i '/check()/,+2 d' PKGBUILD && \
+  sudo -u abc makepkg -sAci --skipinteg --noconfirm --needed && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLIMC/NLMC/g' \
