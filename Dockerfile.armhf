@@ -38,9 +38,9 @@ RUN \
   echo "**** compile guacamole ****" && \
   mkdir /tmp/guac && \
   cd /tmp/guac && \
-  wget \
+  curl -sL \
     http://apache.org/dyn/closer.cgi?action=download\&filename=guacamole/${GUACD_VERSION}/source/guacamole-server-${GUACD_VERSION}.tar.gz \
-    -O guac.tar.gz && \
+    -o guac.tar.gz && \
   tar -xf guac.tar.gz && \
   cd guacamole-server-${GUACD_VERSION} && \
   ./configure \
