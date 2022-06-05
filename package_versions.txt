@@ -24,7 +24,7 @@ diffutils1:3.8-0ubuntu2
 dirmngr2.2.27-3ubuntu2
 distro-info-data0.52ubuntu0.1
 docker-ce-cli5:20.10.16~3-0~ubuntu-bionic
-dpkg1.21.1ubuntu2
+dpkg1.21.1ubuntu2.1
 e2fsprogs1.46.5-2ubuntu1
 findutils4.8.0-1ubuntu3
 fontconfig2.13.1-4.2ubuntu5
@@ -97,7 +97,7 @@ libcolord21.4.6-1
 libcom-err21.46.5-2ubuntu1
 libcrypt11:4.4.27-1
 libcryptsetup122:2.4.3-1ubuntu1
-libcups22.4.1op1-1ubuntu4
+libcups22.4.1op1-1ubuntu4.1
 libcurl3-gnutls7.81.0-1ubuntu1.2
 libcurl47.81.0-1ubuntu1.2
 libdatrie10.2.13-2
@@ -356,7 +356,7 @@ media-types7.0.0
 mount2.37.2-4ubuntu3
 ncurses-base6.3-2
 ncurses-bin6.3-2
-nodejs16.15.0-deb-1nodesource1
+nodejs16.15.1-deb-1nodesource1
 obconf1:2.0.4+git20150213-2build1
 openbox3.6.1-10
 openssh-client1:8.9p1-3
