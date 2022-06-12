@@ -18,7 +18,7 @@ cairo-gobject-1.17.4-4.fc35.x86_64
 cairomm-1.14.2-20.fc35.x86_64
 cdparanoia-libs-10.2-38.fc35.x86_64
 colord-libs-1.4.5-3.fc35.x86_64
-container-selinux-2.183.0-3.fc35.noarch
+container-selinux-2.187.0-1.fc35.noarch
 containerd-1.6.4-1.fc35.x86_64
 coreutils-8.32-33.fc35.x86_64
 coreutils-common-8.32-33.fc35.x86_64
@@ -86,8 +86,8 @@ gsettings-desktop-schemas-41.0-1.fc35.x86_64
 gsm-1.0.19-6.fc35.x86_64
 gstreamer1-1.20.0-1.fc35.x86_64
 gstreamer1-plugins-base-1.20.0-1.fc35.x86_64
-gtk-update-icon-cache-3.24.31-2.fc35.x86_64
-gtk3-3.24.31-2.fc35.x86_64
+gtk-update-icon-cache-3.24.34-1.fc35.x86_64
+gtk3-3.24.34-1.fc35.x86_64
 gtkmm30-3.24.6-1.fc35.x86_64
 gzip-1.10-5.fc35.x86_64
 harfbuzz-2.9.1-1.fc35.x86_64
