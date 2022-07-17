@@ -216,8 +216,8 @@ libpsl50.19.1-5build1
 libpthread-stubs0-dev0.3-4
 libpulse01:11.1-1ubuntu7.11
 libpulsedsp1:11.1-1ubuntu7.11
-libpython2.7-minimal2.7.17-1~18.04ubuntu1.7
-libpython2.7-stdlib2.7.17-1~18.04ubuntu1.7
+libpython2.7-minimal2.7.17-1~18.04ubuntu1.8
+libpython2.7-stdlib2.7.17-1~18.04ubuntu1.8
 libpython3.6-minimal3.6.9-1~18.04ubuntu1.7
 libpython3.6-stdlib3.6.9-1~18.04ubuntu1.7
 libpython3-stdlib3.6.7-1~18.04
@@ -337,7 +337,7 @@ nodejs14.20.0-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.7
-openssl1.1.1-1ubuntu2.1~18.04.19
+openssl1.1.1-1ubuntu2.1~18.04.20
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
@@ -346,8 +346,8 @@ publicsuffix20180223.1310-1
 pulseaudio1:11.1-1ubuntu7.11
 pulseaudio-utils1:11.1-1ubuntu7.11
 python2.7.15~rc1-1
-python2.72.7.17-1~18.04ubuntu1.7
-python2.7-minimal2.7.17-1~18.04ubuntu1.7
+python2.72.7.17-1~18.04ubuntu1.8
+python2.7-minimal2.7.17-1~18.04ubuntu1.8
 python33.6.7-1~18.04
 python3.63.6.9-1~18.04ubuntu1.7
 python3.6-minimal3.6.9-1~18.04ubuntu1.7
@@ -389,8 +389,8 @@ xkb-data2.23.1-1ubuntu1.18.04.1
 xorg-sgml-doctools1:1.11-1
 xorgxrdp0.9.5-2
 xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.10
-xserver-xorg-core2:1.19.6-1ubuntu4.10
+xserver-common2:1.19.6-1ubuntu4.11
+xserver-xorg-core2:1.19.6-1ubuntu4.11
 xserver-xorg-video-amdgpu18.0.1-1
 xserver-xorg-video-ati1:18.0.1-1
 xserver-xorg-video-intel2:2.99.917+git20171229-1
