@@ -141,7 +141,7 @@ libglvnd01.0.0-2ubuntu2.3
 libglx01.0.0-2ubuntu2.3
 libglx-mesa020.0.8-0ubuntu1~18.04.1
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.5
+libgnutls303.5.18-1ubuntu1.6
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgssapi3-heimdal7.5.0+dfsg-1
