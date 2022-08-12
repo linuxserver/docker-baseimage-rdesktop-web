@@ -29,8 +29,8 @@ RUN \
   mkdir /tmp/guac && \
   cd /tmp/guac && \
   wget \
-   http://apache.org/dyn/closer.cgi?action=download\&filename=guacamole/${GUACD_VERSION}/source/guacamole-server-${GUACD_VERSION}.tar.gz \
-   -O guac.tar.gz && \
+    http://apache.org/dyn/closer.cgi?action=download\&filename=guacamole/${GUACD_VERSION}/source/guacamole-server-${GUACD_VERSION}.tar.gz \
+    -O guac.tar.gz && \
   tar -xf guac.tar.gz && \
   cd guacamole-server-${GUACD_VERSION} && \
   ./configure \
@@ -116,15 +116,14 @@ RUN \
     font-noto \
     freerdp-libs \
     nodejs \
-    openbox && \
+    openbox \
+    websocat && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     ossp-uuid && \
-  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
-    websocat && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLIMC/NLMC/g' \
-     /etc/xdg/openbox/rc.xml && \
+    /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
