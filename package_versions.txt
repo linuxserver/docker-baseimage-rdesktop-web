@@ -3,7 +3,7 @@ adwaita-icon-theme41.0-1ubuntu1
 apt2.4.6
 apt-transport-https2.4.6
 apt-utils2.4.6
-base-files12ubuntu4.1
+base-files12ubuntu4.2
 base-passwd3.5.52build1
 bash5.1-6ubuntu1
 bsdextrautils2.37.2-4ubuntu3
@@ -91,7 +91,7 @@ libcairo-gobject21.16.0-5ubuntu2
 libcap21:2.44-1build3
 libcap2-bin1:2.44-1build3
 libcap-ng00.7.9-2.2build3
-libc-bin2.35-0ubuntu3
+libc-bin2.35-0ubuntu3.1
 libcbor0.80.8.0-2ubuntu1
 libcolord21.4.6-1
 libcom-err21.46.5-2ubuntu1.1
@@ -150,7 +150,7 @@ libglvnd01.4.0-1
 libglx01.4.0-1
 libglx-mesa022.0.5-0ubuntu0.1
 libgmp102:6.2.1+dfsg-3ubuntu1
-libgnutls303.7.3-4ubuntu1
+libgnutls303.7.3-4ubuntu1.1
 libgomp112-20220319-1ubuntu1
 libgpg-error01.43-3
 libgraphite2-31.3.14-1build2
@@ -274,8 +274,8 @@ libthai00.1.29-1build1
 libthai-data0.1.29-1build1
 libtiff54.3.0-6
 libtinfo66.3-2
-libtirpc31.3.2-2build1
-libtirpc-common1.3.2-2build1
+libtirpc31.3.2-2ubuntu0.1
+libtirpc-common1.3.2-2ubuntu0.1
 libuchardet00.0.7-1build2
 libudev1249.11-0ubuntu3.4
 libunistring21.0-1
