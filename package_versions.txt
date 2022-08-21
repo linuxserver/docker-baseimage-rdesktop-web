@@ -398,4 +398,4 @@ xserver-xorg-video-radeon1:18.0.1-1
 xterm330-1ubuntu2.2
 xtrans-dev1.3.5-1
 xutils1:7.7+19ubuntu7.1
-zlib1g1:1.2.11.dfsg-0ubuntu2.1
+zlib1g1:1.2.11.dfsg-0ubuntu2.2
