@@ -100,7 +100,7 @@ RUN \
   npm install 
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:jammy
+FROM ghcr.io/linuxserver/baseimage-rdesktop:jammy-d32ea6dc-ls31
 
 # set version label
 ARG BUILD_DATE
@@ -142,13 +142,13 @@ RUN \
   WEBSOCAT_RELEASE=$(curl -sX GET "https://api.github.com/repos/vi/websocat/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   curl -o \
-  	/usr/bin/websocat -fL \
+    /usr/bin/websocat -fL \
     "https://github.com/vi/websocat/releases/download/${WEBSOCAT_RELEASE}/websocat.x86_64-unknown-linux-musl" && \
   chmod +x /usr/bin/websocat && \
   echo "**** openbox tweaks ****" && \
   sed -i \
     's/NLIMC/NLMC/g' \
-     /etc/xdg/openbox/rc.xml && \
+    /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
