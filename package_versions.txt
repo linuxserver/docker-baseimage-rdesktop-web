@@ -13,7 +13,7 @@ ca-certificates20211016~18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.19
+curl7.58.0-2ubuntu3.20
 dash0.5.8-2.10
 dbus1.12.2-1ubuntu1.3
 dbus-x111.12.2-1ubuntu1.3
@@ -96,7 +96,7 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.4
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.9
-libcurl47.58.0-2ubuntu3.19
+libcurl47.58.0-2ubuntu3.20
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.3
@@ -367,7 +367,7 @@ ssl-cert1.0.39
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.3
-tzdata2022a-0ubuntu0.18.04
+tzdata2022c-0ubuntu0.18.04.0
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
