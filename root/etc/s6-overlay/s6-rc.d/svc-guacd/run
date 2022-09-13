@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# Run guacd
+s6-notifyoncheck -d -n 60 -w 5000 -c "nc -z 127.0.0.1 4822" \
+    /usr/sbin/guacd -f -b 0.0.0.0 -l 4822
