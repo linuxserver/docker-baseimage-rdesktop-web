@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+HOME="/config" 
+
+s6-notifyoncheck -d -n 60 -w 5000 -c "nc -z 127.0.0.1 ${CUSTOM_PORT:=3000}" \
+    cd /gclient s6-setuidgid abc node app.js
