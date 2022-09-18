@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.6
 distro-info-data0.37ubuntu0.14
-docker-ce-cli5:20.10.17~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.18~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -252,14 +252,14 @@ libssl1.0.01.0.2n-1ubuntu5.10
 libssl1.11.1.1-1ubuntu2.1~18.04.20
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.53
+libsystemd0237-3ubuntu10.56
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
 libthai-data0.1.27-2
-libtiff54.0.9-5ubuntu0.5
+libtiff54.0.9-5ubuntu0.6
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.53
+libudev1237-3ubuntu10.56
 libunistring20.9.9-0ubuntu2
 libusb-1.0-02:1.0.21-2
 libutempter01.1.6-3
@@ -267,8 +267,8 @@ libuuid12.31.1-0.4ubuntu3.7
 libvorbis0a1.3.5-4.2
 libvorbisenc21.3.5-4.2
 libwayland-client01.16.0-1ubuntu1.1~18.04.3
-libwayland-cursor01.16.0-1ubuntu1.1~18.04.3
-libwayland-egl11.16.0-1ubuntu1.1~18.04.3
+libwayland-cursor01.16.0-1ubuntu1.1~18.04.4
+libwayland-egl11.16.0-1ubuntu1.1~18.04.4
 libwayland-server01.16.0-1ubuntu1.1~18.04.3
 libwebp60.6.1-2ubuntu0.18.04.1
 libwebrtc-audio-processing10.3-1
@@ -371,7 +371,7 @@ tzdata2022c-0ubuntu0.18.04.0
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.53
+udev237-3ubuntu10.56
 util-linux2.31.1-0.4ubuntu3.7
 x11-apps7.7+6ubuntu1
 x11-common1:7.7+19ubuntu7.1
