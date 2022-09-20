@@ -272,7 +272,7 @@ libtasn1-64.18.0-4build1
 libtdb11.4.5-2build1
 libthai00.1.29-1build1
 libthai-data0.1.29-1build1
-libtiff54.3.0-6
+libtiff54.3.0-6ubuntu0.1
 libtinfo66.3-2
 libtirpc31.3.2-2ubuntu0.1
 libtirpc-common1.3.2-2ubuntu0.1
