@@ -286,10 +286,10 @@ libuuid12.37.2-4ubuntu3
 libvorbis0a1.3.7-1build2
 libvorbisenc21.3.7-1build2
 libvulkan11.3.204.1-2
-libwayland-client01.20.0-1
+libwayland-client01.20.0-1ubuntu0.1
 libwayland-cursor01.20.0-1ubuntu0.1
 libwayland-egl11.20.0-1ubuntu0.1
-libwayland-server01.20.0-1
+libwayland-server01.20.0-1ubuntu0.1
 libwebp71.2.2-2
 libwebrtc-audio-processing10.3.1-0ubuntu5
 libwinpr2-22.6.1+dfsg1-3ubuntu2.2
