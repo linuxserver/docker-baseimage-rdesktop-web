@@ -92,7 +92,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:fedora
+FROM ghcr.io/linuxserver/baseimage-rdesktop:fedora-af89fa4b-ls63
 
 # set version label
 ARG BUILD_DATE
