@@ -1,5 +1,5 @@
 # guacamole builder
-FROM ghcr.io/linuxserver/baseimage-fedora:35 as guacbuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:36 as guacbuilder
 
 ARG GUACD_VERSION=1.1.0
 
@@ -61,7 +61,7 @@ RUN \
   make DESTDIR=/buildout install
 
 # nodejs builder
-FROM ghcr.io/linuxserver/baseimage-fedora:35 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-fedora:36 as nodebuilder
 ARG GCLIENT_RELEASE
 
 RUN \
@@ -92,7 +92,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:fedora-af89fa4b-ls63
+FROM ghcr.io/linuxserver/baseimage-rdesktop:fedora
 
 # set version label
 ARG BUILD_DATE
