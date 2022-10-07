@@ -11,19 +11,10 @@ if [ -z ${GUIAUTOSTART+x} ]; then
   sleep infinity
 # start abc session by sending a token to guacamole via websockets
 else
-  # make sure services are up
-  until \
-    $(true &>/dev/null </dev/tcp/localhost/3350) && \
-    $(true &>/dev/null </dev/tcp/localhost/4822) && \
-    $(true &>/dev/null </dev/tcp/localhost/${CUSTOM_PORT:=3000}) &&
-    $(true &>/dev/null </dev/tcp/localhost/3389)
-  do
-    sleep .5
-  done
   echo "[guac-init] Auto start set, starting application"
   sleep 1
   # generate a token based on env vars
-  cd /gclient
+  cd /gclient || exit 1
   TOKEN=$(node maketoken.js)
   websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}${SUBFOLDER}guaclite?token=${TOKEN}
   sleep infinity
