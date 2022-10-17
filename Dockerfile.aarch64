@@ -107,7 +107,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-arch
+FROM ghcr.io/linuxserver/baseimage-rdesktop:arm64v8-arch-0.9.19-20.9.19-20.6-3-ls77
 
 # set version label
 ARG BUILD_DATE
