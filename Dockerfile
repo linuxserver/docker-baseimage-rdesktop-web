@@ -107,7 +107,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:arch-0.9.19-20.9.19-20.6-3-ls77
+FROM ghcr.io/linuxserver/baseimage-rdesktop:arch
 
 # set version label
 ARG BUILD_DATE
@@ -158,4 +158,5 @@ COPY /root /
 
 # ports and volumes
 EXPOSE 3000
+
 VOLUME /config
