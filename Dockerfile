@@ -99,7 +99,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-rdesktop:3.16
+FROM ghcr.io/linuxserver/baseimage-rdesktop:alpine
 
 # set version label
 ARG BUILD_DATE
