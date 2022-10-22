@@ -8,20 +8,24 @@ RUN \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     ossp-uuid-dev && \
   apk add --no-cache \
-    cairo-dev \
-    libjpeg-turbo-dev \
-    libpng-dev \
-    ffmpeg-dev \
-    freerdp-dev \
-    openssl-dev \
-    pulseaudio-dev \
-    libvorbis-dev \	
-    libwebp-dev \
-    perl \
-    cunit-dev \
+    alpine-sdk \
     autoconf \
     automake \
-    alpine-sdk
+    cairo-dev \
+    cunit-dev \
+    ffmpeg-dev \
+    freerdp-dev \
+    libjpeg-turbo-dev \
+    libpng-dev \
+    libssh2-dev \
+    libvncserver-dev \
+    libvorbis-dev \
+    libwebp-dev \
+    libwebsockets-dev \
+    openssl-dev \
+    pango-dev \
+    perl \
+    pulseaudio-dev
 
 RUN \
   echo "**** compile guacamole ****" && \
@@ -33,15 +37,13 @@ RUN \
     -O guac.tar.gz && \
   tar -xf guac.tar.gz && \
   cd guacamole-server-${GUACD_VERSION} && \
+  CFLAGS="$CFLAGS -Wno-error=deprecated-declarations -Wno-error=discarded-qualifiers" \
   ./configure \
-    CPPFLAGS="-Wno-deprecated-declarations" \
-    --disable-guacenc \
-    --disable-guaclog \
     --prefix=/usr \
     --sysconfdir=/etc \
     --mandir=/usr/share/man \
     --localstatedir=/var \
-    --enable-static \
+    --disable-static \
     --with-libavcodec \
     --with-libavutil \
     --with-libswscale \
@@ -49,14 +51,14 @@ RUN \
     --without-winsock \
     --with-vorbis \
     --with-pulse \
-    --without-pango \
-    --without-terminal \
-    --without-vnc \
+    --with-pango \
+    --with-terminal \
+    --with-vnc \
     --with-rdp \
-    --without-ssh \
+    --with-ssh \
     --without-telnet \
     --with-webp \
-    --without-websockets && \
+    --with-websockets && \
   make && \
   make DESTDIR=/buildout install
 
@@ -113,10 +115,24 @@ RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
     ca-certificates \
+    cairo \
+    cunit \
+    ffmpeg \
     font-noto \
+    freerdp \
     freerdp-libs \
+    libjpeg-turbo \
+    libpng \
+    libssh2 \
+    libvncserver \
+    libvorbis \
+    libwebp \
+    libwebsockets \
     nodejs \
     openbox \
+    openssl \
+    pango \
+    perl \
     websocat && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     ossp-uuid && \
