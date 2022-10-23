@@ -80,13 +80,9 @@ RUN \
 RUN \
   echo "**** grab source ****" && \
   mkdir -p /gclient && \
-  if [ -z ${GCLIENT_RELEASE+x} ]; then \
-    GCLIENT_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/gclient/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
-  fi && \
   curl -o \
   /tmp/gclient.tar.gz -L \
-    "https://github.com/linuxserver/gclient/archive/${GCLIENT_RELEASE}.tar.gz" && \
+    "https://github.com/linuxserver/gclient/archive/1.1.2.tar.gz" && \
   tar xf \
   /tmp/gclient.tar.gz -C \
     /gclient/ --strip-components=1
