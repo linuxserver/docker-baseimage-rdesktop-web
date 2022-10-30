@@ -13,10 +13,10 @@ ca-certificates20211016~18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.20
+curl7.58.0-2ubuntu3.21
 dash0.5.8-2.10
-dbus1.12.2-1ubuntu1.3
-dbus-x111.12.2-1ubuntu1.3
+dbus1.12.2-1ubuntu1.4
+dbus-x111.12.2-1ubuntu1.4
 dconf-gsettings-backend0.26.0-2ubuntu3
 dconf-service0.26.0-2ubuntu3
 debconf1.5.66ubuntu1
@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.6
 distro-info-data0.37ubuntu0.14
-docker-ce-cli5:20.10.20~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.21~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -96,10 +96,10 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.4
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.9
-libcurl47.58.0-2ubuntu3.20
+libcurl47.58.0-2ubuntu3.21
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1.3
+libdbus-1-31.12.2-1ubuntu1.4
 libdconf10.26.0-2ubuntu3
 libdebconfclient00.213ubuntu1
 libdrm22.4.101-2~18.04.1
