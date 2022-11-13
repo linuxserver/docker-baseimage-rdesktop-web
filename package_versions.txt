@@ -23,7 +23,7 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.6
-distro-info-data0.37ubuntu0.14
+distro-info-data0.37ubuntu0.15
 docker-ce-cli5:20.10.21~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
@@ -208,7 +208,7 @@ libpangoxft-1.0-01.40.14-1ubuntu0.1
 libpciaccess00.14-1
 libpcre32:8.39-9
 libpipeline11.5.0-1
-libpixman-1-00.34.0-2
+libpixman-1-00.34.0-2ubuntu0.1
 libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.2
 libproxy1v50.4.15-1ubuntu0.2
@@ -246,7 +246,7 @@ libsndfile11.0.28-4ubuntu0.18.04.2
 libsoup2.4-12.62.1-1ubuntu0.4
 libsoup-gnome2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2.1
-libsqlite3-03.22.0-1ubuntu0.6
+libsqlite3-03.22.0-1ubuntu0.7
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.10
 libssl1.11.1.1-1ubuntu2.1~18.04.20
@@ -257,7 +257,7 @@ libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
 libthai-data0.1.27-2
-libtiff54.0.9-5ubuntu0.7
+libtiff54.0.9-5ubuntu0.8
 libtinfo56.1-1ubuntu1.18.04
 libudev1237-3ubuntu10.56
 libunistring20.9.9-0ubuntu2
@@ -367,7 +367,7 @@ ssl-cert1.0.39
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.3
-tzdata2022e-0ubuntu0.18.04.0
+tzdata2022f-0ubuntu0.18.04.0
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
