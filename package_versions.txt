@@ -13,7 +13,7 @@ ca-certificates20211016ubuntu0.18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.21
+curl7.58.0-2ubuntu3.22
 dash0.5.8-2.10
 dbus1.12.2-1ubuntu1.4
 dbus-x111.12.2-1ubuntu1.4
@@ -96,7 +96,7 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.4
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.9
-libcurl47.58.0-2ubuntu3.21
+libcurl47.58.0-2ubuntu3.22
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.4
@@ -172,7 +172,7 @@ libkmod224-1ubuntu3.5
 libkrb5-26-heimdal7.5.0+dfsg-1ubuntu0.2
 libkrb5-31.16-2ubuntu0.2
 libkrb5support01.16-2ubuntu0.2
-libksba81.3.5-2ubuntu0.18.04.1
+libksba81.3.5-2ubuntu0.18.04.2
 liblcms2-22.9-1ubuntu0.1
 libldap-2.4-22.4.45+dfsg-1ubuntu1.11
 libldap-common2.4.45+dfsg-1ubuntu1.11
@@ -333,7 +333,7 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.6
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs14.21.1-deb-1nodesource1
+nodejs14.21.2-deb-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.7
@@ -351,12 +351,12 @@ python2.7-minimal2.7.17-1~18.04ubuntu1.10
 python33.6.7-1~18.04
 python3.63.6.9-1~18.04ubuntu1.9
 python3.6-minimal3.6.9-1~18.04ubuntu1.9
-python3-apt1.6.5ubuntu0.7
+python3-apt1.6.6
 python3-dbus1.2.6-1
 python3-gi3.26.1-2ubuntu1
 python3-minimal3.6.7-1~18.04
 python3-software-properties0.96.24.32.18
-python-apt-common1.6.5ubuntu0.7
+python-apt-common1.6.6
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
 sed4.4-2
