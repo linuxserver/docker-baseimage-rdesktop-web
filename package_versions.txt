@@ -1,7 +1,7 @@
 alpine-baselayout-3.4.0-r0
 alpine-baselayout-data-3.4.0-r0
 alpine-keys-2.4-r1
-alpine-release-3.17.0-r0
+alpine-release-3.17.1-r0
 alsa-lib-1.2.8-r0
 aom-libs-3.5.0-r0
 apk-tools-2.12.10-r1
@@ -13,8 +13,8 @@ brotli-libs-1.0.9-r9
 busybox-1.35.0-r29
 busybox-binsh-1.35.0-r29
 c-ares-1.18.1-r1
-ca-certificates-20220614-r3
-ca-certificates-bundle-20220614-r3
+ca-certificates-20220614-r4
+ca-certificates-bundle-20220614-r4
 cairo-1.17.6-r3
 cairo-gobject-1.17.6-r3
 cairomm-1.14.4-r0
@@ -92,7 +92,7 @@ libcanberra-gstreamer-0.30-r9
 libcanberra-gtk3-0.30-r9
 libcanberra-pulse-0.30-r9
 libcap2-2.66-r0
-libcrypto3-3.0.7-r0
+libcrypto3-3.0.7-r2
 libcurl-7.87.0-r0
 libdav1d-1.0.0-r2
 libdrm-2.4.114-r0
@@ -131,7 +131,7 @@ libsodium-1.0.18-r2
 libsrt-1.5.1-r0
 libssh-0.10.4-r0
 libssh2-1.10.0-r3
-libssl3-3.0.7-r0
+libssl3-3.0.7-r2
 libstdc++-12.2.1_git20220924-r4
 libtasn1-4.19.0-r0
 libtheora-1.1.1-r16
@@ -180,12 +180,12 @@ llvm15-libs-15.0.6-r0
 lzo-2.10-r3
 mbedtls-2.28.2-r0
 mcookie-2.38.1-r1
-mesa-22.2.5-r0
-mesa-dri-gallium-22.2.5-r0
-mesa-egl-22.2.5-r0
-mesa-gbm-22.2.5-r0
-mesa-gl-22.2.5-r0
-mesa-glapi-22.2.5-r0
+mesa-22.2.5-r1
+mesa-dri-gallium-22.2.5-r1
+mesa-egl-22.2.5-r1
+mesa-gbm-22.2.5-r1
+mesa-gl-22.2.5-r1
+mesa-glapi-22.2.5-r1
 mkfontscale-1.2.2-r1
 musl-1.2.3-r4
 musl-fts-1.2.7-r3
