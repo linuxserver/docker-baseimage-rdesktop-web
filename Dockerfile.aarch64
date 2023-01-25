@@ -145,7 +145,6 @@ RUN \
     /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   pacman -Rsn --noconfirm \
-    gcc \
     git \
     $(pacman -Qdtq) && \
   rm -rf \
