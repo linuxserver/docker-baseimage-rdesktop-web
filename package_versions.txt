@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.6
 distro-info-data0.37ubuntu0.15
-docker-ce-cli5:20.10.22~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.23~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7
@@ -145,7 +145,7 @@ libgnutls303.5.18-1ubuntu1.6
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgssapi3-heimdal7.5.0+dfsg-1ubuntu0.3
-libgssapi-krb5-21.16-2ubuntu0.2
+libgssapi-krb5-21.16-2ubuntu0.3
 libgtk-3-03.22.30-1ubuntu4
 libgtk-3-common3.22.30-1ubuntu4
 libharfbuzz0b1.7.2-1ubuntu1
@@ -166,12 +166,12 @@ libjpeg88c-2ubuntu8
 libjpeg-turbo81.5.2-0ubuntu5.18.04.6
 libjson-glib-1.0-01.4.2-3ubuntu0.18.04.1
 libjson-glib-1.0-common1.4.2-3ubuntu0.18.04.1
-libk5crypto31.16-2ubuntu0.2
+libk5crypto31.16-2ubuntu0.3
 libkeyutils11.5.9-9.2ubuntu2.1
 libkmod224-1ubuntu3.5
 libkrb5-26-heimdal7.5.0+dfsg-1ubuntu0.3
-libkrb5-31.16-2ubuntu0.2
-libkrb5support01.16-2ubuntu0.2
+libkrb5-31.16-2ubuntu0.3
+libkrb5support01.16-2ubuntu0.3
 libksba81.3.5-2ubuntu0.18.04.2
 liblcms2-22.9-1ubuntu0.1
 libldap-2.4-22.4.45+dfsg-1ubuntu1.11
