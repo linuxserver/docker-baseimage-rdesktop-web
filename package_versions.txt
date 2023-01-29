@@ -184,7 +184,7 @@ pavucontrol-5.0-r0
 pciutils-libs-3.7.0-r0
 pcre-8.45-r1
 pixman-0.40.0-r4
-pkgconf-1.8.0-r0
+pkgconf-1.8.1-r0
 procps-3.3.17-r0
 pulseaudio-15.0-r2
 pulseaudio-alsa-15.0-r2
