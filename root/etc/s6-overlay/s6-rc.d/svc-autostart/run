@@ -3,20 +3,20 @@
 
 # set SUBFOLDER to default if unset
 if [ -z ${SUBFOLDER+x} ]; then
-  SUBFOLDER="/"
+    SUBFOLDER="/"
 fi
 
 # just sleep if autostart is not enabled
 if [ -z ${GUIAUTOSTART+x} ]; then
-  echo "[guac-init] Auto start not set, application start on login"
-  sleep infinity
+    echo "[guac-init] Auto start not set, application start on login"
+    sleep infinity
 # start abc session by sending a token to guacamole via websockets
 else
-  echo "[guac-init] Auto start set, starting application"
-  sleep 1
-  # generate a token based on env vars
-  cd /gclient || exit 1
-  TOKEN=$(node maketoken.js)
-  websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}${SUBFOLDER}guaclite?token=${TOKEN}
-  sleep infinity
+    echo "[guac-init] Auto start set, starting application"
+    sleep 1
+    # generate a token based on env vars
+    cd /gclient || exit 1
+    TOKEN=$(node maketoken.js)
+    websocat -q -n ws://localhost:${CUSTOM_PORT:=3000}${SUBFOLDER}guaclite?token=${TOKEN}
+    sleep infinity
 fi
