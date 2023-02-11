@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # set SUBFOLDER to default if unset
 if [ -z ${SUBFOLDER+x} ]; then

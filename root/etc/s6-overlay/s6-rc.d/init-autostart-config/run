@@ -1,8 +1,9 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # default file copies first run
 if [ ! -d /config/.config/openbox/autostart ]; then
     mkdir -p /config/.config/openbox
     cp /defaults/autostart /config/.config/openbox/autostart
-    chown -R abc:abc /config/.config/openbox
+    lsiown -R abc:abc /config/.config/openbox
 fi
