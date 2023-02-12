@@ -13,7 +13,7 @@ avahi-libs-0.8-16.fc36.x86_64
 basesystem-11-13.fc36.noarch
 bash-5.2.2-2.fc36.x86_64
 bzip2-libs-1.0.8-11.fc36.x86_64
-ca-certificates-2022.2.54-1.2.fc36.noarch
+ca-certificates-2023.2.60-1.0.fc36.noarch
 cairo-1.17.6-1.fc36.x86_64
 cairo-gobject-1.17.6-1.fc36.x86_64
 cairomm-1.14.2-22.fc36.x86_64
@@ -196,7 +196,7 @@ libnghttp2-1.51.0-1.fc36.x86_64
 libnl3-3.7.0-1.fc36.x86_64
 libnsl2-2.0.0-3.fc36.x86_64
 libogg-1.3.5-3.fc36.x86_64
-libpcap-1.10.2-1.fc36.x86_64
+libpcap-1.10.3-1.fc36.x86_64
 libpciaccess-0.16-6.fc36.x86_64
 libpng-1.6.37-12.fc36.x86_64
 libproxy-0.4.18-1.fc36.x86_64
@@ -281,7 +281,6 @@ oniguruma-6.9.8-1.fc36.x86_64
 openbox-3.6.1-19.fc36.x86_64
 openbox-libs-3.6.1-19.fc36.x86_64
 openldap-2.6.3-1.fc36.x86_64
-openldap-compat-2.6.3-1.fc36.x86_64
 openssh-8.8p1-1.fc36.1.x86_64
 openssh-clients-8.8p1-1.fc36.1.x86_64
 openssl-3.0.5-2.fc36.x86_64
@@ -344,7 +343,7 @@ soxr-0.1.3-11.fc36.x86_64
 speexdsp-1.2.1-1.fc36.x86_64
 sqlite-libs-3.36.0-5.fc36.x86_64
 startup-notification-0.12-23.fc36.x86_64
-sudo-1.9.8-5.p2.fc36.x86_64
+sudo-1.9.12-2.p2.fc36.x86_64
 systemd-250.9-1.fc36.x86_64
 systemd-libs-250.9-1.fc36.x86_64
 systemd-pam-250.9-1.fc36.x86_64
