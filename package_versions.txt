@@ -49,7 +49,7 @@ giflib-5.2.1-r0
 glib-2.70.1-r0
 glibmm-2.66.0-r1
 gmp-6.2.1-r1
-gnutls-3.7.1-r1
+gnutls-3.7.1-r2
 graphene-1.10.6-r1
 graphite2-1.3.14-r0
 gsm-1.0.19-r1
@@ -76,7 +76,7 @@ libcanberra-gstreamer-0.30-r8
 libcanberra-gtk3-0.30-r8
 libcanberra-pulse-0.30-r8
 libcap-2.61-r0
-libcrypto1.1-1.1.1s-r1
+libcrypto1.1-1.1.1t-r1
 libcurl-7.80.0-r5
 libdrm-2.4.109-r0
 libedit-20210910.3.1-r0
@@ -107,7 +107,7 @@ libseccomp-2.5.2-r0
 libsigc++-2.10.6-r0
 libsm-1.2.3-r0
 libsndfile-1.0.31-r1
-libssl1.1-1.1.1s-r1
+libssl1.1-1.1.1t-r1
 libstdc++-10.3.1_git20211027-r0
 libtasn1-4.18.0-r1
 libtheora-1.1.1-r16
@@ -167,7 +167,7 @@ ncurses-libs-6.3_p20211120-r1
 ncurses-terminfo-base-6.3_p20211120-r1
 nettle-3.7.3-r0
 nghttp2-libs-1.46.0-r0
-nodejs-16.17.1-r0
+nodejs-16.19.1-r0
 openbox-3.6.1-r2
 openbox-libs-3.6.1-r2
 openssh-client-common-8.8_p1-r1
@@ -176,7 +176,8 @@ openssh-keygen-8.8_p1-r1
 openssl-1.1.1t-r1
 opus-1.3.1-r1
 orc-0.4.32-r0
-ossp-uuid-1.6.2-r2
+ossp-uuid-1.6.2-r3
+ossp-uuid-libs-1.6.2-r3
 p11-kit-0.24.0-r1
 pango-1.48.10-r0
 pangomm-2.42.2-r0
