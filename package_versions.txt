@@ -20,11 +20,11 @@ cairo-gobject-1.17.6-r3
 cairomm-1.14.4-r0
 cdparanoia-libs-10.2-r11
 cjson-1.7.15-r3
-containerd-1.6.12-r2
+containerd-1.6.18-r0
 coreutils-9.1-r0
 cunit-2.1.3-r4
 cups-libs-2.4.2-r1
-curl-7.87.0-r1
+curl-7.87.0-r2
 dbus-1.14.4-r0
 dbus-libs-1.14.4-r0
 dbus-x11-1.14.4-r0
@@ -93,7 +93,7 @@ libcanberra-gtk3-0.30-r9
 libcanberra-pulse-0.30-r9
 libcap2-2.66-r0
 libcrypto3-3.0.8-r0
-libcurl-7.87.0-r1
+libcurl-7.87.0-r2
 libdav1d-1.0.0-r2
 libdrm-2.4.114-r0
 libedit-20221030.3.1-r0
@@ -194,7 +194,7 @@ ncurses-libs-6.3_p20221119-r0
 ncurses-terminfo-base-6.3_p20221119-r0
 nettle-3.8.1-r0
 nghttp2-libs-1.51.0-r0
-nodejs-18.14.1-r0
+nodejs-18.14.2-r0
 numactl-2.0.16-r1
 oniguruma-6.9.8-r0
 openbox-3.6.1-r3
@@ -208,7 +208,7 @@ orc-0.4.33-r0
 ossp-uuid-1.6.2-r3
 ossp-uuid-libs-1.6.2-r3
 p11-kit-0.24.1-r1
-pango-1.50.12-r0
+pango-1.50.13-r0
 pangomm-2.46.3-r0
 pavucontrol-5.0-r1
 pciutils-libs-3.9.0-r0
