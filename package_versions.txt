@@ -1,401 +1,944 @@
-adduser3.116ubuntu1
-adwaita-icon-theme3.28.0-1ubuntu1
-apt1.6.14
-apt-transport-https1.6.14
-apt-utils1.6.14
-base-files10.1ubuntu2.11
-base-passwd3.5.44
-bash4.4.18-2ubuntu1.2
-bsdmainutils11.1.2ubuntu1
-bsdutils1:2.31.1-0.4ubuntu3.7
-bzip21.0.6-8.1ubuntu0.2
-ca-certificates20211016ubuntu0.18.04.1
-coreutils8.28-1ubuntu1
-cpp4:7.4.0-1ubuntu2.3
-cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.22
-dash0.5.8-2.10
-dbus1.12.2-1ubuntu1.4
-dbus-x111.12.2-1ubuntu1.4
-dconf-gsettings-backend0.26.0-2ubuntu3
-dconf-service0.26.0-2ubuntu3
-debconf1.5.66ubuntu1
-debianutils4.8.4
-diffutils1:3.6-1
-dirmngr2.2.4-1ubuntu1.6
-distro-info-data0.37ubuntu0.15
-docker-ce-cli5:23.0.1-1~ubuntu.18.04~bionic
-dpkg1.19.0.5ubuntu2.3
-e2fsprogs1.44.1-1ubuntu1.3
-fdisk2.31.1-0.4ubuntu3.7
-findutils4.6.0+git+20170828-2
-fontconfig2.12.6-0ubuntu2
-fontconfig-config2.12.6-0ubuntu2
-fonts-dejavu-core2.37-1
-gawk1:4.1.4+dfsg-1build1
-gcc-7-base7.5.0-3ubuntu1~18.04
-gcc-8-base8.4.0-1ubuntu1~18.04
-gir1.2-glib-2.01.56.1-1
-glib-networking2.56.0-1ubuntu0.1
-glib-networking-common2.56.0-1ubuntu0.1
-glib-networking-services2.56.0-1ubuntu0.1
-gnupg22.2.4-1ubuntu1.6
-gnupg2.2.4-1ubuntu1.6
-gnupg-l10n2.2.4-1ubuntu1.6
-gnupg-utils2.2.4-1ubuntu1.6
-gpg2.2.4-1ubuntu1.6
-gpg-agent2.2.4-1ubuntu1.6
-gpgconf2.2.4-1ubuntu1.6
-gpgsm2.2.4-1ubuntu1.6
-gpgv2.2.4-1ubuntu1.6
-gpg-wks-client2.2.4-1ubuntu1.6
-gpg-wks-server2.2.4-1ubuntu1.6
-grep3.1-2build1
-groff-base1.22.3-10
-gsettings-desktop-schemas3.28.0-1ubuntu1
-gtk-update-icon-cache3.22.30-1ubuntu4
-guacd1.1.0-1
-gzip1.6-5ubuntu1.1
-hicolor-icon-theme0.17-2
-hostname3.20
-humanity-icon-theme0.6.15
-init-system-helpers1.51
-iso-codes3.79-1
-keyboard-configuration1.178ubuntu2.9
-krb5-locales1.16-2ubuntu0.3
-libacl12.2.52-3build1
-libapparmor12.12-4ubuntu5.1
-libapt-inst2.01.6.14
-libapt-pkg5.01.6.14
-libasn1-8-heimdal7.5.0+dfsg-1ubuntu0.4
-libasound21.1.3-5ubuntu0.6
-libasound2-data1.1.3-5ubuntu0.6
-libasound2-plugins1.1.1-1ubuntu1
-libassuan02.5.1-2
-libasyncns00.8-6
-libatk1.0-02.28.1-1
-libatk1.0-data2.28.1-1
-libatk-bridge2.0-02.26.2-1
-libatspi2.0-02.28.0-1
-libattr11:2.4.47-2build1
-libaudit11:2.8.2-1ubuntu1.1
-libaudit-common1:2.8.2-1ubuntu1.1
-libavahi-client30.7-3.1ubuntu1.3
-libavahi-common30.7-3.1ubuntu1.3
-libavahi-common-data0.7-3.1ubuntu1.3
-libblkid12.31.1-0.4ubuntu3.7
-libbsd00.8.7-1ubuntu0.1
-libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.6
-libcairo21.15.10-2ubuntu0.1
-libcairo-gobject21.15.10-2ubuntu0.1
-libcap21:2.25-1.2
-libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1.5
-libcolord21.3.3-2build1
-libcom-err21.44.1-1ubuntu1.4
-libcroco30.6.12-2
-libcups22.2.7-1ubuntu2.9
-libcurl47.58.0-2ubuntu3.22
-libdatrie10.2.10-7
-libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1.4
-libdconf10.26.0-2ubuntu3
-libdebconfclient00.213ubuntu1
-libdrm22.4.101-2~18.04.1
-libdrm-amdgpu12.4.101-2~18.04.1
-libdrm-common2.4.101-2~18.04.1
-libdrm-intel12.4.101-2~18.04.1
-libdrm-nouveau22.4.101-2~18.04.1
-libdrm-radeon12.4.101-2~18.04.1
-libedit23.1-20170329-1
-libegl11.0.0-2ubuntu2.3
-libegl1-mesa20.0.8-0ubuntu1~18.04.1
-libegl-mesa020.0.8-0ubuntu1~18.04.1
-libelf10.170-0.4ubuntu0.1
-libepoxy01.4.3-1
-libexpat12.2.5-3ubuntu0.9
-libext2fs21.44.1-1ubuntu1.3
-libfdisk12.31.1-0.4ubuntu3.7
-libffi63.2.1-8
-libflac81.3.2-1ubuntu0.1
-libfontconfig12.12.6-0ubuntu2
-libfontenc11:1.1.3-1
-libfreerdp2-22.2.0+dfsg1-0ubuntu0.18.04.4
-libfreerdp-client2-22.2.0+dfsg1-0ubuntu0.18.04.4
-libfreetype62.8.1-2ubuntu2.2
-libfuse22.9.7-1ubuntu1
-libgbm120.0.8-0ubuntu1~18.04.1
-libgcc11:8.4.0-1ubuntu1~18.04
-libgcrypt201.8.1-4ubuntu1.3
-libgdbm51.14.1-6
-libgdk-pixbuf2.0-02.36.11-2
-libgdk-pixbuf2.0-common2.36.11-2
-libgif75.1.4-2ubuntu0.1
-libgirepository-1.0-11.56.1-1
-libgl11.0.0-2ubuntu2.3
-libgl1-mesa-dri20.0.8-0ubuntu1~18.04.1
-libglapi-mesa20.0.8-0ubuntu1~18.04.1
-libglib2.0-02.56.4-0ubuntu0.18.04.9
-libglvnd01.0.0-2ubuntu2.3
-libglx01.0.0-2ubuntu2.3
-libglx-mesa020.0.8-0ubuntu1~18.04.1
-libgmp102:6.1.2+dfsg-2ubuntu0.1
-libgnutls303.5.18-1ubuntu1.6
-libgpg-error01.27-6
-libgraphite2-31.3.11-2
-libgssapi3-heimdal7.5.0+dfsg-1ubuntu0.4
-libgssapi-krb5-21.16-2ubuntu0.3
-libgtk-3-03.22.30-1ubuntu4
-libgtk-3-common3.22.30-1ubuntu4
-libharfbuzz0b1.7.2-1ubuntu1
-libhcrypto4-heimdal7.5.0+dfsg-1ubuntu0.4
-libheimbase1-heimdal7.5.0+dfsg-1ubuntu0.4
-libheimntlm0-heimdal7.5.0+dfsg-1ubuntu0.4
-libhogweed43.4.1-0ubuntu0.18.04.1
-libhx509-5-heimdal7.5.0+dfsg-1ubuntu0.4
-libice62:1.0.9-2ubuntu0.18.04.1
-libicu6060.2-3ubuntu3.2
-libid3tag00.15.1b-13
-libidn2-02.0.4-1.1ubuntu0.2
-libimlib21.4.10-1
-libisl190.19-1
-libjack-jackd2-01.9.12~dfsg-2
-libjbig02.1-3.1ubuntu0.18.04.1
-libjpeg88c-2ubuntu8
-libjpeg-turbo81.5.2-0ubuntu5.18.04.6
-libjson-glib-1.0-01.4.2-3ubuntu0.18.04.1
-libjson-glib-1.0-common1.4.2-3ubuntu0.18.04.1
-libk5crypto31.16-2ubuntu0.3
-libkeyutils11.5.9-9.2ubuntu2.1
-libkmod224-1ubuntu3.5
-libkrb5-26-heimdal7.5.0+dfsg-1ubuntu0.4
-libkrb5-31.16-2ubuntu0.3
-libkrb5support01.16-2ubuntu0.3
-libksba81.3.5-2ubuntu0.18.04.2
-liblcms2-22.9-1ubuntu0.1
-libldap-2.4-22.4.45+dfsg-1ubuntu1.11
-libldap-common2.4.45+dfsg-1ubuntu1.11
-libllvm101:10.0.0-4ubuntu1~18.04.2
-liblocale-gettext-perl1.07-3build2
-libltdl72.4.6-2
-liblz4-10.0~r131-2ubuntu3.1
-liblzma55.2.2-1.3ubuntu0.1
-libmount12.31.1-0.4ubuntu3.7
-libmpc31.1.0-1
-libmpdec22.4.2-1ubuntu1
-libmpfr64.0.1-1
-libncurses56.1-1ubuntu1.18.04
-libncursesw56.1-1ubuntu1.18.04
-libnettle63.4.1-0ubuntu0.18.04.1
-libnghttp2-141.30.0-1ubuntu1
-libnpth01.5-3
-libobrender32v53.6.1-7ubuntu0.1
-libobt2v53.6.1-7ubuntu0.1
-libogg01.3.2-1
-libopus01.1.2-1ubuntu1
-liborc-0.4-01:0.4.28-1
-libossp-uuid161.6.2-1.5build4
-libp11-kit00.23.9-2ubuntu0.1
-libpam0g1.1.8-3.6ubuntu2.18.04.3
-libpam-modules1.1.8-3.6ubuntu2.18.04.3
-libpam-modules-bin1.1.8-3.6ubuntu2.18.04.3
-libpam-runtime1.1.8-3.6ubuntu2.18.04.3
-libpango-1.0-01.40.14-1ubuntu0.1
-libpangocairo-1.0-01.40.14-1ubuntu0.1
-libpangoft2-1.0-01.40.14-1ubuntu0.1
-libpangoxft-1.0-01.40.14-1ubuntu0.1
-libpciaccess00.14-1
-libpcre32:8.39-9
-libpipeline11.5.0-1
-libpixman-1-00.34.0-2ubuntu0.1
-libpng16-161.6.34-1ubuntu0.18.04.2
-libprocps62:3.3.12-3ubuntu1.2
-libproxy1v50.4.15-1ubuntu0.2
-libpsl50.19.1-5build1
-libpthread-stubs0-dev0.3-4
-libpulse01:11.1-1ubuntu7.11
-libpulsedsp1:11.1-1ubuntu7.11
-libpython2.7-minimal2.7.17-1~18.04ubuntu1.10
-libpython2.7-stdlib2.7.17-1~18.04ubuntu1.10
-libpython3.6-minimal3.6.9-1~18.04ubuntu1.9
-libpython3.6-stdlib3.6.9-1~18.04ubuntu1.9
-libpython3-stdlib3.6.7-1~18.04
-libpython-stdlib2.7.15~rc1-1
-libreadline77.0-3
-librest-0.7-00.8.0-2
-libroken18-heimdal7.5.0+dfsg-1ubuntu0.4
-librsvg2-22.40.20-2ubuntu0.2
-librsvg2-common2.40.20-2ubuntu0.2
-librtmp12.4+20151223.gitfa8646d.1-1
-libsamplerate00.1.9-1
-libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2.4
-libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2.4
-libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2.4
-libseccomp22.5.1-1ubuntu1~18.04.2
-libselinux12.7-2build2
-libsemanage12.7-2build2
-libsemanage-common2.7-2build2
-libsensors41:3.4.0-4ubuntu0.1
-libsepol12.7-1
-libsigsegv22.12-1
-libsm62:1.2.2-1
-libsmartcols12.31.1-0.4ubuntu3.7
-libsnapd-glib11.58-0ubuntu0.18.04.0
-libsndfile11.0.28-4ubuntu0.18.04.2
-libsoup2.4-12.62.1-1ubuntu0.4
-libsoup-gnome2.4-12.62.1-1ubuntu0.4
-libspeexdsp11.2~rc1.2-1ubuntu2.1
-libsqlite3-03.22.0-1ubuntu0.7
-libss21.44.1-1ubuntu1.3
-libssl1.0.01.0.2n-1ubuntu5.11
-libssl1.11.1.1-1ubuntu2.1~18.04.21
-libstartup-notification00.12-5
-libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.56
-libtasn1-64.13-2
-libtdb11.3.15-2
-libthai00.1.27-2
-libthai-data0.1.27-2
-libtiff54.0.9-5ubuntu0.9
-libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.56
-libunistring20.9.9-0ubuntu2
-libusb-1.0-02:1.0.21-2
-libutempter01.1.6-3
-libuuid12.31.1-0.4ubuntu3.7
-libvorbis0a1.3.5-4.2
-libvorbisenc21.3.5-4.2
-libwayland-client01.16.0-1ubuntu1.1~18.04.4
-libwayland-cursor01.16.0-1ubuntu1.1~18.04.4
-libwayland-egl11.16.0-1ubuntu1.1~18.04.4
-libwayland-server01.16.0-1ubuntu1.1~18.04.4
-libwebp60.6.1-2ubuntu0.18.04.1
-libwebrtc-audio-processing10.3-1
-libwind0-heimdal7.5.0+dfsg-1ubuntu0.4
-libwinpr2-22.2.0+dfsg1-0ubuntu0.18.04.4
-libwrap07.6.q-27
-libx11-62:1.6.4-3ubuntu0.4
-libx11-data2:1.6.4-3ubuntu0.4
-libx11-dev2:1.6.4-3ubuntu0.4
-libx11-xcb12:1.6.4-3ubuntu0.4
-libxau61:1.0.8-1ubuntu1
-libxau-dev1:1.0.8-1ubuntu1
-libxaw72:1.0.13-1
-libxcb11.13-2~ubuntu18.04
-libxcb1-dev1.13-2~ubuntu18.04
-libxcb-dri2-01.13-2~ubuntu18.04
-libxcb-dri3-01.13-2~ubuntu18.04
-libxcb-glx01.13-2~ubuntu18.04
-libxcb-present01.13-2~ubuntu18.04
-libxcb-render01.13-2~ubuntu18.04
-libxcb-shape01.13-2~ubuntu18.04
-libxcb-shm01.13-2~ubuntu18.04
-libxcb-sync11.13-2~ubuntu18.04
-libxcb-util10.4.0-0ubuntu3
-libxcb-xfixes01.13-2~ubuntu18.04
-libxcomposite11:0.4.4-2
-libxcursor11:1.1.15-1
-libxdamage11:1.1.4-3
-libxdmcp61:1.1.2-3
-libxdmcp-dev1:1.1.2-3
-libxext62:1.3.3-1
-libxfixes31:5.0.3-1
-libxfont21:2.0.3-1
-libxft22.3.2-1
-libxi62:1.7.9-1
-libxinerama12:1.1.3-1
-libxkbcommon00.8.2-1~ubuntu18.04.1
-libxkbfile11:1.0.9-2
-libxml22.9.4+dfsg1-6.1ubuntu1.8
-libxmu62:1.1.2-2
-libxmuu12:1.1.2-2
-libxpm41:3.5.12-1ubuntu0.18.04.2
-libxrandr22:1.5.1-1
-libxrender11:0.9.10-1
-libxshmfence11.3-1
-libxss11:1.2.2-1
-libxt61:1.1.5-1
-libxtst62:1.2.3-1
-libxv12:1.0.11-1
-libxvmc12:1.0.10-1
-libxxf86dga12:1.1.4-1
-libxxf86vm11:1.1.4-1
-libzstd11.3.3+dfsg-2ubuntu1.2
-locales2.27-3ubuntu1.6
-login1:4.5-1ubuntu2.2
-lsb-base9.20170808ubuntu1
-lsb-release9.20170808ubuntu1
-man-db2.8.3-2ubuntu0.1
-mawk1.3.3-17ubuntu3
-mime-support3.60ubuntu1
-mount2.31.1-0.4ubuntu3.7
-multiarch-support2.27-3ubuntu1.6
-ncurses-base6.1-1ubuntu1.18.04
-ncurses-bin6.1-1ubuntu1.18.04
-nodejs14.21.3-deb-1nodesource1
-obconf1:2.0.4+git20150213-2
-openbox3.6.1-7ubuntu0.1
-openssh-client1:7.6p1-4ubuntu0.7
-openssl1.1.1-1ubuntu2.1~18.04.21
-passwd1:4.5-1ubuntu2.2
-perl-base5.26.1-6ubuntu0.5
-pinentry-curses1.1.0-1
-procps2:3.3.12-3ubuntu1.2
-publicsuffix20180223.1310-1
-pulseaudio1:11.1-1ubuntu7.11
-pulseaudio-utils1:11.1-1ubuntu7.11
-python2.7.15~rc1-1
-python2.72.7.17-1~18.04ubuntu1.10
-python2.7-minimal2.7.17-1~18.04ubuntu1.10
-python33.6.7-1~18.04
-python3.63.6.9-1~18.04ubuntu1.9
-python3.6-minimal3.6.9-1~18.04ubuntu1.9
-python3-apt1.6.6
-python3-dbus1.2.6-1
-python3-gi3.26.1-2ubuntu1
-python3-minimal3.6.7-1~18.04
-python3-software-properties0.96.24.32.20
-python-apt-common1.6.6
-python-minimal2.7.15~rc1-1
-readline-common7.0-3
-sed4.4-2
-sensible-utils0.0.12
-shared-mime-info1.9-2
-software-properties-common0.96.24.32.20
-ssl-cert1.0.39
-sudo1.8.21p2-3ubuntu1.5
-sysvinit-utils2.88dsf-59.10ubuntu1
-tar1.29b-2ubuntu0.3
-tzdata2022g-0ubuntu0.18.04
-ubuntu-keyring2018.09.18.1~18.04.2
-ubuntu-mono16.10+18.04.20181005-0ubuntu1
-ucf3.0038
-udev237-3ubuntu10.56
-util-linux2.31.1-0.4ubuntu3.7
-x11-apps7.7+6ubuntu1
-x11-common1:7.7+19ubuntu7.1
-x11proto-core-dev2018.4-4
-x11proto-dev2018.4-4
-x11-session-utils7.7+2build1
-x11-utils7.7+3build1
-x11-xkb-utils7.7+3ubuntu0.18.04.1
-x11-xserver-utils7.7+7build1
-xbitmaps1.1.1-2
-xfonts-base1:1.0.4+nmu1
-xfonts-encodings1:1.0.4-2
-xfonts-utils1:7.7+6
-xkb-data2.23.1-1ubuntu1.18.04.1
-xorg-sgml-doctools1:1.11-1
-xorgxrdp0.9.5-2
-xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.14
-xserver-xorg-core2:1.19.6-1ubuntu4.14
-xserver-xorg-video-amdgpu18.0.1-1
-xserver-xorg-video-ati1:18.0.1-1
-xserver-xorg-video-intel2:2.99.917+git20171229-1
-xserver-xorg-video-radeon1:18.0.1-1
-xterm330-1ubuntu2.2
-xtrans-dev1.3.5-1
-xutils1:7.7+19ubuntu7.1
-zlib1g1:1.2.11.dfsg-0ubuntu2.2
+NAME                              VERSION                              TYPE      
+@iarna/cli                        2.1.0                                npm        
+@mapbox/node-pre-gyp              1.0.5                                npm        
+@socket.io/component-emitter      3.1.0                                npm        
+@types/cookie                     0.4.1                                npm        
+@types/cors                       2.8.13                               npm        
+@types/node                       18.14.6                              npm        
+GClient                           1.1.2                                npm        
+JSONStream                        1.3.5                                npm        
+PyGObject                         3.26.1                               python     
+abbrev                            1.1.1                                npm        
+accepts                           1.3.8                                npm        
+adduser                           3.116ubuntu1                         deb        
+adwaita-icon-theme                3.28.0-1ubuntu1                      deb        
+agent-base                        4.2.1                                npm        
+agent-base                        4.3.0                                npm        
+agent-base                        6.0.2                                npm        
+agentkeepalive                    3.5.2                                npm        
+ajv                               6.12.6                               npm        
+ansi-align                        2.0.0                                npm        
+ansi-regex                        2.1.1                                npm        
+ansi-regex                        3.0.0                                npm        
+ansi-regex                        4.1.0                                npm        
+ansi-regex                        4.1.1                                npm        
+ansi-regex                        5.0.1                                npm        
+ansi-styles                       3.2.1                                npm        
+ansi-styles                       4.3.0                                npm        
+ansicolors                        0.3.2                                npm        
+ansistyles                        0.1.3                                npm        
+aproba                            1.2.0                                npm        
+aproba                            2.0.0                                npm        
+apt                               1.6.14                               deb        
+apt-transport-https               1.6.14                               deb        
+apt-utils                         1.6.14                               deb        
+archy                             1.0.0                                npm        
+are-we-there-yet                  1.1.4                                npm        
+are-we-there-yet                  1.1.7                                npm        
+argparse                          1.2.1                                python     
+array-flatten                     1.1.1                                npm        
+asap                              2.0.6                                npm        
+asn1                              0.2.6                                npm        
+assert-plus                       1.0.0                                npm        
+async                             3.2.4                                npm        
+asynckit                          0.4.0                                npm        
+aws-sign2                         0.7.0                                npm        
+aws4                              1.11.0                               npm        
+balanced-match                    1.0.2                                npm        
+base-files                        10.1ubuntu2.11                       deb        
+base-passwd                       3.5.44                               deb        
+base64id                          2.0.0                                npm        
+bash                              4.4.18-2ubuntu1.2                    deb        
+bcrypt-pbkdf                      1.0.2                                npm        
+bin-links                         1.1.8                                npm        
+bindings                          1.5.0                                npm        
+bluebird                          3.7.2                                npm        
+body-parser                       1.20.1                               npm        
+body-parser                       1.20.2                               npm        
+boxen                             1.3.0                                npm        
+brace-expansion                   1.1.11                               npm        
+brace-expansion                   2.0.1                                npm        
+bsdmainutils                      11.1.2ubuntu1                        deb        
+bsdutils                          1:2.31.1-0.4ubuntu3.7                deb        
+buffer-from                       1.0.0                                npm        
+builtins                          1.0.3                                npm        
+byline                            5.0.0                                npm        
+byte-size                         5.0.1                                npm        
+bytes                             3.1.2                                npm        
+bzip2                             1.0.6-8.1ubuntu0.2                   deb        
+ca-certificates                   20211016ubuntu0.18.04.1              deb        
+cacache                           12.0.4                               npm        
+call-bind                         1.0.2                                npm        
+call-limit                        1.1.1                                npm        
+camelcase                         4.1.0                                npm        
+camelcase                         5.3.1                                npm        
+capture-stack-trace               1.0.0                                npm        
+caseless                          0.12.0                               npm        
+chalk                             2.4.1                                npm        
+chalk                             4.1.2                                npm        
+chownr                            1.1.4                                npm        
+chownr                            2.0.0                                npm        
+ci-info                           1.6.0                                npm        
+ci-info                           2.0.0                                npm        
+cidr-regex                        2.0.10                               npm        
+cli-boxes                         1.0.0                                npm        
+cli-columns                       3.1.2                                npm        
+cli-table3                        0.5.1                                npm        
+cliui                             5.0.0                                npm        
+cliui                             6.0.0                                npm        
+clone                             1.0.4                                npm        
+cmd-shim                          3.0.3                                npm        
+code-point-at                     1.1.0                                npm        
+color-convert                     1.9.1                                npm        
+color-convert                     2.0.1                                npm        
+color-name                        1.1.3                                npm        
+color-name                        1.1.4                                npm        
+colors                            1.3.3                                npm        
+columnify                         1.5.4                                npm        
+combined-stream                   1.0.8                                npm        
+concat-map                        0.0.1                                npm        
+concat-stream                     1.6.2                                npm        
+config-chain                      1.1.13                               npm        
+configstore                       3.1.5                                npm        
+console-control-strings           1.1.0                                npm        
+content-disposition               0.5.4                                npm        
+content-type                      1.0.5                                npm        
+cookie                            0.4.2                                npm        
+cookie                            0.5.0                                npm        
+cookie-signature                  1.0.6                                npm        
+copy-concurrently                 1.0.5                                npm        
+core-util-is                      1.0.2                                npm        
+core-util-is                      1.0.3                                npm        
+corepack                          0.15.1                               npm        
+coreutils                         8.28-1ubuntu1                        deb        
+cors                              2.8.5                                npm        
+cpp                               4:7.4.0-1ubuntu2.3                   deb        
+cpp-7                             7.5.0-3ubuntu1~18.04                 deb        
+create-error-class                3.0.2                                npm        
+cross-spawn                       5.1.0                                npm        
+crypto-random-string              1.0.0                                npm        
+curl                              7.58.0-2ubuntu3.23                   deb        
+cyclist                           0.2.2                                npm        
+dash                              0.5.8-2.10                           deb        
+dashdash                          1.14.1                               npm        
+dbus                              1.12.2-1ubuntu1.4                    deb        
+dbus-x11                          1.12.2-1ubuntu1.4                    deb        
+dconf-gsettings-backend           0.26.0-2ubuntu3                      deb        
+dconf-service                     0.26.0-2ubuntu3                      deb        
+debconf                           1.5.66ubuntu1                        deb        
+debianutils                       4.8.4                                deb        
+debug                             2.6.9                                npm        
+debug                             3.1.0                                npm        
+debug                             4.3.4                                npm        
+debuglog                          1.0.1                                npm        
+decamelize                        1.2.0                                npm        
+decode-uri-component              0.2.2                                npm        
+deep-extend                       0.4.2                                npm        
+deep-extend                       0.6.0                                npm        
+defaults                          1.0.3                                npm        
+define-properties                 1.1.3                                npm        
+delayed-stream                    1.0.0                                npm        
+delegates                         1.0.0                                npm        
+depd                              2.0.0                                npm        
+destroy                           1.2.0                                npm        
+detect-indent                     5.0.0                                npm        
+detect-libc                       1.0.3                                npm        
+detect-newline                    2.1.0                                npm        
+dezalgo                           1.0.4                                npm        
+diffutils                         1:3.6-1                              deb        
+dirmngr                           2.2.4-1ubuntu1.6                     deb        
+distro-info-data                  0.37ubuntu0.15                       deb        
+docker-ce-cli                     5:23.0.1-1~ubuntu.18.04~bionic       deb        
+dot-prop                          4.2.1                                npm        
+dotenv                            5.0.1                                npm        
+dpkg                              1.19.0.5ubuntu2.3                    deb        
+duplexer3                         0.1.4                                npm        
+duplexify                         3.6.0                                npm        
+e2fsprogs                         1.44.1-1ubuntu1.3                    deb        
+ecc-jsbn                          0.1.2                                npm        
+editor                            1.0.0                                npm        
+ee-first                          1.1.1                                npm        
+ejs                               3.1.8                                npm        
+emoji-regex                       7.0.3                                npm        
+emoji-regex                       8.0.0                                npm        
+encodeurl                         1.0.2                                npm        
+encoding                          0.1.12                               npm        
+end-of-stream                     1.4.1                                npm        
+engine.io                         6.4.1                                npm        
+engine.io-parser                  5.0.6                                npm        
+env-paths                         2.2.1                                npm        
+err-code                          1.1.2                                npm        
+errno                             0.1.7                                npm        
+es-abstract                       1.12.0                               npm        
+es-to-primitive                   1.2.0                                npm        
+es6-promise                       4.2.8                                npm        
+es6-promisify                     5.0.0                                npm        
+escape-html                       1.0.3                                npm        
+escape-string-regexp              1.0.5                                npm        
+etag                              1.8.1                                npm        
+execa                             0.7.0                                npm        
+express                           4.18.2                               npm        
+extend                            3.0.2                                npm        
+extsprintf                        1.3.0                                npm        
+fast-deep-equal                   3.1.3                                npm        
+fast-json-stable-stringify        2.0.0                                npm        
+fdisk                             2.31.1-0.4ubuntu3.7                  deb        
+figgy-pudding                     3.5.2                                npm        
+file-uri-to-path                  1.0.0                                npm        
+filelist                          1.0.4                                npm        
+filter-obj                        1.1.0                                npm        
+finalhandler                      1.2.0                                npm        
+find-npm-prefix                   1.0.2                                npm        
+find-up                           3.0.0                                npm        
+find-up                           4.1.0                                npm        
+findutils                         4.6.0+git+20170828-2                 deb        
+flush-write-stream                1.0.3                                npm        
+fontconfig                        2.12.6-0ubuntu2                      deb        
+fontconfig-config                 2.12.6-0ubuntu2                      deb        
+fonts-dejavu-core                 2.37-1                               deb        
+forever-agent                     0.6.1                                npm        
+form-data                         2.3.3                                npm        
+forwarded                         0.2.0                                npm        
+fresh                             0.5.2                                npm        
+from2                             1.3.0                                npm        
+from2                             2.3.0                                npm        
+fs-minipass                       1.2.7                                npm        
+fs-minipass                       2.1.0                                npm        
+fs-vacuum                         1.2.10                               npm        
+fs-write-stream-atomic            1.0.10                               npm        
+fs.realpath                       1.0.0                                npm        
+function-bind                     1.1.1                                npm        
+gauge                             2.7.4                                npm        
+gawk                              1:4.1.4+dfsg-1build1                 deb        
+gcc-7-base                        7.5.0-3ubuntu1~18.04                 deb        
+gcc-8-base                        8.4.0-1ubuntu1~18.04                 deb        
+genfun                            5.0.0                                npm        
+gentle-fs                         2.3.1                                npm        
+get-caller-file                   2.0.5                                npm        
+get-intrinsic                     1.2.0                                npm        
+get-stream                        3.0.0                                npm        
+get-stream                        4.1.0                                npm        
+getpass                           0.1.7                                npm        
+gir1.2-glib-2.0                   1.56.1-1                             deb        
+github.com/docker/cli/cmd/docker  (devel)                              go-module  
+glib-networking                   2.56.0-1ubuntu0.1                    deb        
+glib-networking-common            2.56.0-1ubuntu0.1                    deb        
+glib-networking-services          2.56.0-1ubuntu0.1                    deb        
+glob                              7.2.3                                npm        
+global-dirs                       0.1.1                                npm        
+gnupg                             2.2.4-1ubuntu1.6                     deb        
+gnupg-l10n                        2.2.4-1ubuntu1.6                     deb        
+gnupg-utils                       2.2.4-1ubuntu1.6                     deb        
+gnupg2                            2.2.4-1ubuntu1.6                     deb        
+got                               6.7.1                                npm        
+gpg                               2.2.4-1ubuntu1.6                     deb        
+gpg-agent                         2.2.4-1ubuntu1.6                     deb        
+gpg-wks-client                    2.2.4-1ubuntu1.6                     deb        
+gpg-wks-server                    2.2.4-1ubuntu1.6                     deb        
+gpgconf                           2.2.4-1ubuntu1.6                     deb        
+gpgsm                             2.2.4-1ubuntu1.6                     deb        
+gpgv                              2.2.4-1ubuntu1.6                     deb        
+graceful-fs                       4.2.10                               npm        
+grep                              3.1-2build1                          deb        
+groff-base                        1.22.3-10                            deb        
+gsettings-desktop-schemas         3.28.0-1ubuntu1                      deb        
+gtk-update-icon-cache             3.22.30-1ubuntu4                     deb        
+guacamole-lite                    0.6.3                                npm        
+guacd                             1.1.0-1                              deb        
+gzip                              1.6-5ubuntu1.1                       deb        
+har-schema                        2.0.0                                npm        
+har-validator                     5.1.5                                npm        
+has                               1.0.3                                npm        
+has-flag                          3.0.0                                npm        
+has-flag                          4.0.0                                npm        
+has-symbols                       1.0.0                                npm        
+has-symbols                       1.0.3                                npm        
+has-unicode                       2.0.1                                npm        
+hicolor-icon-theme                0.17-2                               deb        
+hosted-git-info                   2.8.9                                npm        
+hostname                          3.20                                 deb        
+http-cache-semantics              3.8.1                                npm        
+http-errors                       2.0.0                                npm        
+http-proxy-agent                  2.1.0                                npm        
+http-signature                    1.2.0                                npm        
+https-proxy-agent                 2.2.4                                npm        
+https-proxy-agent                 5.0.1                                npm        
+humanity-icon-theme               0.6.15                               deb        
+humanize-ms                       1.2.1                                npm        
+iconv-lite                        0.4.23                               npm        
+iconv-lite                        0.4.24                               npm        
+iferr                             0.1.5                                npm        
+iferr                             1.0.2                                npm        
+ignore-walk                       3.0.3                                npm        
+import-lazy                       2.1.0                                npm        
+imurmurhash                       0.1.4                                npm        
+infer-owner                       1.0.4                                npm        
+inflight                          1.0.6                                npm        
+inherits                          2.0.4                                npm        
+ini                               1.3.8                                npm        
+init-package-json                 1.10.3                               npm        
+init-system-helpers               1.51                                 deb        
+ip                                1.1.5                                npm        
+ip-regex                          2.1.0                                npm        
+ipaddr.js                         1.9.1                                npm        
+is-callable                       1.1.4                                npm        
+is-ci                             1.2.1                                npm        
+is-cidr                           3.1.1                                npm        
+is-date-object                    1.0.1                                npm        
+is-fullwidth-code-point           1.0.0                                npm        
+is-fullwidth-code-point           2.0.0                                npm        
+is-fullwidth-code-point           3.0.0                                npm        
+is-installed-globally             0.1.0                                npm        
+is-npm                            1.0.0                                npm        
+is-obj                            1.0.1                                npm        
+is-path-inside                    1.0.1                                npm        
+is-redirect                       1.0.0                                npm        
+is-regex                          1.0.4                                npm        
+is-retry-allowed                  1.2.0                                npm        
+is-stream                         1.1.0                                npm        
+is-symbol                         1.0.2                                npm        
+is-typedarray                     1.0.0                                npm        
+isarray                           0.0.1                                npm        
+isarray                           1.0.0                                npm        
+isexe                             2.0.0                                npm        
+iso-codes                         3.79-1                               deb        
+isstream                          0.1.2                                npm        
+jake                              10.8.5                               npm        
+jsbn                              0.1.1                                npm        
+json-parse-better-errors          1.0.2                                npm        
+json-parse-even-better-errors     2.3.1                                npm        
+json-schema                       0.4.0                                npm        
+json-schema-traverse              0.4.1                                npm        
+json-stringify-safe               5.0.1                                npm        
+jsonparse                         1.3.1                                npm        
+jsprim                            1.4.2                                npm        
+keyboard-configuration            1.178ubuntu2.9                       deb        
+krb5-locales                      1.16-2ubuntu0.3                      deb        
+latest-version                    3.1.0                                npm        
+lazy-property                     1.0.0                                npm        
+libacl1                           2.2.52-3build1                       deb        
+libapparmor1                      2.12-4ubuntu5.1                      deb        
+libapt-inst2.0                    1.6.14                               deb        
+libapt-pkg5.0                     1.6.14                               deb        
+libasn1-8-heimdal                 7.5.0+dfsg-1ubuntu0.4                deb        
+libasound2                        1.1.3-5ubuntu0.6                     deb        
+libasound2-data                   1.1.3-5ubuntu0.6                     deb        
+libasound2-plugins                1.1.1-1ubuntu1                       deb        
+libassuan0                        2.5.1-2                              deb        
+libasyncns0                       0.8-6                                deb        
+libatk-bridge2.0-0                2.26.2-1                             deb        
+libatk1.0-0                       2.28.1-1                             deb        
+libatk1.0-data                    2.28.1-1                             deb        
+libatspi2.0-0                     2.28.0-1                             deb        
+libattr1                          1:2.4.47-2build1                     deb        
+libaudit-common                   1:2.8.2-1ubuntu1.1                   deb        
+libaudit1                         1:2.8.2-1ubuntu1.1                   deb        
+libavahi-client3                  0.7-3.1ubuntu1.3                     deb        
+libavahi-common-data              0.7-3.1ubuntu1.3                     deb        
+libavahi-common3                  0.7-3.1ubuntu1.3                     deb        
+libblkid1                         2.31.1-0.4ubuntu3.7                  deb        
+libbsd0                           0.8.7-1ubuntu0.1                     deb        
+libbz2-1.0                        1.0.6-8.1ubuntu0.2                   deb        
+libc-bin                          2.27-3ubuntu1.5                      deb        
+libc6                             2.27-3ubuntu1.6                      deb        
+libcairo-gobject2                 1.15.10-2ubuntu0.1                   deb        
+libcairo2                         1.15.10-2ubuntu0.1                   deb        
+libcap-ng0                        0.7.7-3.1                            deb        
+libcap2                           1:2.25-1.2                           deb        
+libcipm                           4.0.8                                npm        
+libcolord2                        1.3.3-2build1                        deb        
+libcom-err2                       1.44.1-1ubuntu1.4                    deb        
+libcroco3                         0.6.12-2                             deb        
+libcups2                          2.2.7-1ubuntu2.9                     deb        
+libcurl4                          7.58.0-2ubuntu3.23                   deb        
+libdatrie1                        0.2.10-7                             deb        
+libdb5.3                          5.3.28-13.1ubuntu1.1                 deb        
+libdbus-1-3                       1.12.2-1ubuntu1.4                    deb        
+libdconf1                         0.26.0-2ubuntu3                      deb        
+libdebconfclient0                 0.213ubuntu1                         deb        
+libdrm-amdgpu1                    2.4.101-2~18.04.1                    deb        
+libdrm-common                     2.4.101-2~18.04.1                    deb        
+libdrm-intel1                     2.4.101-2~18.04.1                    deb        
+libdrm-nouveau2                   2.4.101-2~18.04.1                    deb        
+libdrm-radeon1                    2.4.101-2~18.04.1                    deb        
+libdrm2                           2.4.101-2~18.04.1                    deb        
+libedit2                          3.1-20170329-1                       deb        
+libegl-mesa0                      20.0.8-0ubuntu1~18.04.1              deb        
+libegl1                           1.0.0-2ubuntu2.3                     deb        
+libegl1-mesa                      20.0.8-0ubuntu1~18.04.1              deb        
+libelf1                           0.170-0.4ubuntu0.1                   deb        
+libepoxy0                         1.4.3-1                              deb        
+libexpat1                         2.2.5-3ubuntu0.9                     deb        
+libext2fs2                        1.44.1-1ubuntu1.3                    deb        
+libfdisk1                         2.31.1-0.4ubuntu3.7                  deb        
+libffi6                           3.2.1-8                              deb        
+libflac8                          1.3.2-1ubuntu0.1                     deb        
+libfontconfig1                    2.12.6-0ubuntu2                      deb        
+libfontenc1                       1:1.1.3-1                            deb        
+libfreerdp-client2-2              2.2.0+dfsg1-0ubuntu0.18.04.4         deb        
+libfreerdp2-2                     2.2.0+dfsg1-0ubuntu0.18.04.4         deb        
+libfreetype6                      2.8.1-2ubuntu2.2                     deb        
+libfuse2                          2.9.7-1ubuntu1                       deb        
+libgbm1                           20.0.8-0ubuntu1~18.04.1              deb        
+libgcc1                           1:8.4.0-1ubuntu1~18.04               deb        
+libgcrypt20                       1.8.1-4ubuntu1.3                     deb        
+libgdbm5                          1.14.1-6                             deb        
+libgdk-pixbuf2.0-0                2.36.11-2                            deb        
+libgdk-pixbuf2.0-common           2.36.11-2                            deb        
+libgif7                           5.1.4-2ubuntu0.1                     deb        
+libgirepository-1.0-1             1.56.1-1                             deb        
+libgl1                            1.0.0-2ubuntu2.3                     deb        
+libgl1-mesa-dri                   20.0.8-0ubuntu1~18.04.1              deb        
+libglapi-mesa                     20.0.8-0ubuntu1~18.04.1              deb        
+libglib2.0-0                      2.56.4-0ubuntu0.18.04.9              deb        
+libglvnd0                         1.0.0-2ubuntu2.3                     deb        
+libglx-mesa0                      20.0.8-0ubuntu1~18.04.1              deb        
+libglx0                           1.0.0-2ubuntu2.3                     deb        
+libgmp10                          2:6.1.2+dfsg-2ubuntu0.1              deb        
+libgnutls30                       3.5.18-1ubuntu1.6                    deb        
+libgpg-error0                     1.27-6                               deb        
+libgraphite2-3                    1.3.11-2                             deb        
+libgssapi-krb5-2                  1.16-2ubuntu0.3                      deb        
+libgssapi3-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
+libgtk-3-0                        3.22.30-1ubuntu4                     deb        
+libgtk-3-common                   3.22.30-1ubuntu4                     deb        
+libharfbuzz0b                     1.7.2-1ubuntu1                       deb        
+libhcrypto4-heimdal               7.5.0+dfsg-1ubuntu0.4                deb        
+libheimbase1-heimdal              7.5.0+dfsg-1ubuntu0.4                deb        
+libheimntlm0-heimdal              7.5.0+dfsg-1ubuntu0.4                deb        
+libhogweed4                       3.4.1-0ubuntu0.18.04.1               deb        
+libhx509-5-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
+libice6                           2:1.0.9-2ubuntu0.18.04.1             deb        
+libicu60                          60.2-3ubuntu3.2                      deb        
+libid3tag0                        0.15.1b-13                           deb        
+libidn2-0                         2.0.4-1.1ubuntu0.2                   deb        
+libimlib2                         1.4.10-1                             deb        
+libisl19                          0.19-1                               deb        
+libjack-jackd2-0                  1.9.12~dfsg-2                        deb        
+libjbig0                          2.1-3.1ubuntu0.18.04.1               deb        
+libjpeg-turbo8                    1.5.2-0ubuntu5.18.04.6               deb        
+libjpeg8                          8c-2ubuntu8                          deb        
+libjson-glib-1.0-0                1.4.2-3ubuntu0.18.04.1               deb        
+libjson-glib-1.0-common           1.4.2-3ubuntu0.18.04.1               deb        
+libk5crypto3                      1.16-2ubuntu0.3                      deb        
+libkeyutils1                      1.5.9-9.2ubuntu2.1                   deb        
+libkmod2                          24-1ubuntu3.5                        deb        
+libkrb5-26-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
+libkrb5-3                         1.16-2ubuntu0.3                      deb        
+libkrb5support0                   1.16-2ubuntu0.3                      deb        
+libksba8                          1.3.5-2ubuntu0.18.04.2               deb        
+liblcms2-2                        2.9-1ubuntu0.1                       deb        
+libldap-2.4-2                     2.4.45+dfsg-1ubuntu1.11              deb        
+libldap-common                    2.4.45+dfsg-1ubuntu1.11              deb        
+libllvm10                         1:10.0.0-4ubuntu1~18.04.2            deb        
+liblocale-gettext-perl            1.07-3build2                         deb        
+libltdl7                          2.4.6-2                              deb        
+liblz4-1                          0.0~r131-2ubuntu3.1                  deb        
+liblzma5                          5.2.2-1.3ubuntu0.1                   deb        
+libmount1                         2.31.1-0.4ubuntu3.7                  deb        
+libmpc3                           1.1.0-1                              deb        
+libmpdec2                         2.4.2-1ubuntu1                       deb        
+libmpfr6                          4.0.1-1                              deb        
+libncurses5                       6.1-1ubuntu1.18.04                   deb        
+libncursesw5                      6.1-1ubuntu1.18.04                   deb        
+libnettle6                        3.4.1-0ubuntu0.18.04.1               deb        
+libnghttp2-14                     1.30.0-1ubuntu1                      deb        
+libnpm                            3.0.1                                npm        
+libnpmaccess                      3.0.2                                npm        
+libnpmconfig                      1.2.1                                npm        
+libnpmhook                        5.0.3                                npm        
+libnpmorg                         1.0.1                                npm        
+libnpmpublish                     1.1.2                                npm        
+libnpmsearch                      2.0.2                                npm        
+libnpmteam                        1.0.2                                npm        
+libnpth0                          1.5-3                                deb        
+libnpx                            10.2.4                               npm        
+libobrender32v5                   3.6.1-7ubuntu0.1                     deb        
+libobt2v5                         3.6.1-7ubuntu0.1                     deb        
+libogg0                           1.3.2-1                              deb        
+libopus0                          1.1.2-1ubuntu1                       deb        
+liborc-0.4-0                      1:0.4.28-1                           deb        
+libossp-uuid16                    1.6.2-1.5build4                      deb        
+libp11-kit0                       0.23.9-2ubuntu0.1                    deb        
+libpam-modules                    1.1.8-3.6ubuntu2.18.04.3             deb        
+libpam-modules-bin                1.1.8-3.6ubuntu2.18.04.3             deb        
+libpam-runtime                    1.1.8-3.6ubuntu2.18.04.3             deb        
+libpam0g                          1.1.8-3.6ubuntu2.18.04.3             deb        
+libpango-1.0-0                    1.40.14-1ubuntu0.1                   deb        
+libpangocairo-1.0-0               1.40.14-1ubuntu0.1                   deb        
+libpangoft2-1.0-0                 1.40.14-1ubuntu0.1                   deb        
+libpangoxft-1.0-0                 1.40.14-1ubuntu0.1                   deb        
+libpciaccess0                     0.14-1                               deb        
+libpcre3                          2:8.39-9                             deb        
+libpipeline1                      1.5.0-1                              deb        
+libpixman-1-0                     0.34.0-2ubuntu0.1                    deb        
+libpng16-16                       1.6.34-1ubuntu0.18.04.2              deb        
+libprocps6                        2:3.3.12-3ubuntu1.2                  deb        
+libproxy1v5                       0.4.15-1ubuntu0.2                    deb        
+libpsl5                           0.19.1-5build1                       deb        
+libpthread-stubs0-dev             0.3-4                                deb        
+libpulse0                         1:11.1-1ubuntu7.11                   deb        
+libpulsedsp                       1:11.1-1ubuntu7.11                   deb        
+libpython-stdlib                  2.7.15~rc1-1                         deb        
+libpython2.7-minimal              2.7.17-1~18.04ubuntu1.10             deb        
+libpython2.7-stdlib               2.7.17-1~18.04ubuntu1.10             deb        
+libpython3-stdlib                 3.6.7-1~18.04                        deb        
+libpython3.6-minimal              3.6.9-1~18.04ubuntu1.9               deb        
+libpython3.6-stdlib               3.6.9-1~18.04ubuntu1.9               deb        
+libreadline7                      7.0-3                                deb        
+librest-0.7-0                     0.8.0-2                              deb        
+libroken18-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
+librsvg2-2                        2.40.20-2ubuntu0.2                   deb        
+librsvg2-common                   2.40.20-2ubuntu0.2                   deb        
+librtmp1                          2.4+20151223.gitfa8646d.1-1          deb        
+libsamplerate0                    0.1.9-1                              deb        
+libsasl2-2                        2.1.27~101-g0780600+dfsg-3ubuntu2.4  deb        
+libsasl2-modules                  2.1.27~101-g0780600+dfsg-3ubuntu2.4  deb        
+libsasl2-modules-db               2.1.27~101-g0780600+dfsg-3ubuntu2.4  deb        
+libseccomp2                       2.5.1-1ubuntu1~18.04.2               deb        
+libselinux1                       2.7-2build2                          deb        
+libsemanage-common                2.7-2build2                          deb        
+libsemanage1                      2.7-2build2                          deb        
+libsensors4                       1:3.4.0-4ubuntu0.1                   deb        
+libsepol1                         2.7-1                                deb        
+libsigsegv2                       2.12-1                               deb        
+libsm6                            2:1.2.2-1                            deb        
+libsmartcols1                     2.31.1-0.4ubuntu3.7                  deb        
+libsnapd-glib1                    1.58-0ubuntu0.18.04.0                deb        
+libsndfile1                       1.0.28-4ubuntu0.18.04.2              deb        
+libsoup-gnome2.4-1                2.62.1-1ubuntu0.4                    deb        
+libsoup2.4-1                      2.62.1-1ubuntu0.4                    deb        
+libspeexdsp1                      1.2~rc1.2-1ubuntu2.1                 deb        
+libsqlite3-0                      3.22.0-1ubuntu0.7                    deb        
+libss2                            1.44.1-1ubuntu1.3                    deb        
+libssl1.0.0                       1.0.2n-1ubuntu5.11                   deb        
+libssl1.1                         1.1.1-1ubuntu2.1~18.04.21            deb        
+libstartup-notification0          0.12-5                               deb        
+libstdc++6                        8.4.0-1ubuntu1~18.04                 deb        
+libsystemd0                       237-3ubuntu10.56                     deb        
+libtasn1-6                        4.13-2                               deb        
+libtdb1                           1.3.15-2                             deb        
+libthai-data                      0.1.27-2                             deb        
+libthai0                          0.1.27-2                             deb        
+libtiff5                          4.0.9-5ubuntu0.9                     deb        
+libtinfo5                         6.1-1ubuntu1.18.04                   deb        
+libudev1                          237-3ubuntu10.56                     deb        
+libunistring2                     0.9.9-0ubuntu2                       deb        
+libusb-1.0-0                      2:1.0.21-2                           deb        
+libutempter0                      1.1.6-3                              deb        
+libuuid1                          2.31.1-0.4ubuntu3.7                  deb        
+libvorbis0a                       1.3.5-4.2                            deb        
+libvorbisenc2                     1.3.5-4.2                            deb        
+libwayland-client0                1.16.0-1ubuntu1.1~18.04.4            deb        
+libwayland-cursor0                1.16.0-1ubuntu1.1~18.04.4            deb        
+libwayland-egl1                   1.16.0-1ubuntu1.1~18.04.4            deb        
+libwayland-server0                1.16.0-1ubuntu1.1~18.04.4            deb        
+libwebp6                          0.6.1-2ubuntu0.18.04.1               deb        
+libwebrtc-audio-processing1       0.3-1                                deb        
+libwind0-heimdal                  7.5.0+dfsg-1ubuntu0.4                deb        
+libwinpr2-2                       2.2.0+dfsg1-0ubuntu0.18.04.4         deb        
+libwrap0                          7.6.q-27                             deb        
+libx11-6                          2:1.6.4-3ubuntu0.4                   deb        
+libx11-data                       2:1.6.4-3ubuntu0.4                   deb        
+libx11-dev                        2:1.6.4-3ubuntu0.4                   deb        
+libx11-xcb1                       2:1.6.4-3ubuntu0.4                   deb        
+libxau-dev                        1:1.0.8-1ubuntu1                     deb        
+libxau6                           1:1.0.8-1ubuntu1                     deb        
+libxaw7                           2:1.0.13-1                           deb        
+libxcb-dri2-0                     1.13-2~ubuntu18.04                   deb        
+libxcb-dri3-0                     1.13-2~ubuntu18.04                   deb        
+libxcb-glx0                       1.13-2~ubuntu18.04                   deb        
+libxcb-present0                   1.13-2~ubuntu18.04                   deb        
+libxcb-render0                    1.13-2~ubuntu18.04                   deb        
+libxcb-shape0                     1.13-2~ubuntu18.04                   deb        
+libxcb-shm0                       1.13-2~ubuntu18.04                   deb        
+libxcb-sync1                      1.13-2~ubuntu18.04                   deb        
+libxcb-util1                      0.4.0-0ubuntu3                       deb        
+libxcb-xfixes0                    1.13-2~ubuntu18.04                   deb        
+libxcb1                           1.13-2~ubuntu18.04                   deb        
+libxcb1-dev                       1.13-2~ubuntu18.04                   deb        
+libxcomposite1                    1:0.4.4-2                            deb        
+libxcursor1                       1:1.1.15-1                           deb        
+libxdamage1                       1:1.1.4-3                            deb        
+libxdmcp-dev                      1:1.1.2-3                            deb        
+libxdmcp6                         1:1.1.2-3                            deb        
+libxext6                          2:1.3.3-1                            deb        
+libxfixes3                        1:5.0.3-1                            deb        
+libxfont2                         1:2.0.3-1                            deb        
+libxft2                           2.3.2-1                              deb        
+libxi6                            2:1.7.9-1                            deb        
+libxinerama1                      2:1.1.3-1                            deb        
+libxkbcommon0                     0.8.2-1~ubuntu18.04.1                deb        
+libxkbfile1                       1:1.0.9-2                            deb        
+libxml2                           2.9.4+dfsg1-6.1ubuntu1.8             deb        
+libxmu6                           2:1.1.2-2                            deb        
+libxmuu1                          2:1.1.2-2                            deb        
+libxpm4                           1:3.5.12-1ubuntu0.18.04.2            deb        
+libxrandr2                        2:1.5.1-1                            deb        
+libxrender1                       1:0.9.10-1                           deb        
+libxshmfence1                     1.3-1                                deb        
+libxss1                           1:1.2.2-1                            deb        
+libxt6                            1:1.1.5-1                            deb        
+libxtst6                          2:1.2.3-1                            deb        
+libxv1                            2:1.0.11-1                           deb        
+libxvmc1                          2:1.0.10-1                           deb        
+libxxf86dga1                      2:1.1.4-1                            deb        
+libxxf86vm1                       1:1.1.4-1                            deb        
+libzstd1                          1.3.3+dfsg-2ubuntu1.2                deb        
+locales                           2.27-3ubuntu1.6                      deb        
+locate-path                       3.0.0                                npm        
+locate-path                       5.0.0                                npm        
+lock-verify                       2.2.2                                npm        
+lockfile                          1.0.4                                npm        
+lodash._baseindexof               3.1.0                                npm        
+lodash._baseuniq                  4.6.0                                npm        
+lodash._bindcallback              3.0.1                                npm        
+lodash._cacheindexof              3.0.2                                npm        
+lodash._createcache               3.1.2                                npm        
+lodash._createset                 4.0.3                                npm        
+lodash._getnative                 3.9.1                                npm        
+lodash._root                      3.0.1                                npm        
+lodash.clonedeep                  4.5.0                                npm        
+lodash.restparam                  3.6.1                                npm        
+lodash.union                      4.6.0                                npm        
+lodash.uniq                       4.5.0                                npm        
+lodash.without                    4.4.0                                npm        
+login                             1:4.5-1ubuntu2.2                     deb        
+lowercase-keys                    1.0.1                                npm        
+lru-cache                         4.1.5                                npm        
+lru-cache                         5.1.1                                npm        
+lru-cache                         6.0.0                                npm        
+lsb-base                          9.20170808ubuntu1                    deb        
+lsb-release                       9.20170808ubuntu1                    deb        
+make-dir                          1.3.0                                npm        
+make-dir                          3.1.0                                npm        
+make-fetch-happen                 5.0.2                                npm        
+man-db                            2.8.3-2ubuntu0.1                     deb        
+mawk                              1.3.3-17ubuntu3                      deb        
+meant                             1.0.3                                npm        
+media-typer                       0.3.0                                npm        
+merge-descriptors                 1.0.1                                npm        
+methods                           1.1.2                                npm        
+mime                              1.6.0                                npm        
+mime-db                           1.35.0                               npm        
+mime-db                           1.52.0                               npm        
+mime-support                      3.60ubuntu1                          deb        
+mime-types                        2.1.19                               npm        
+mime-types                        2.1.35                               npm        
+minimatch                         3.1.2                                npm        
+minimatch                         5.1.6                                npm        
+minimist                          1.2.6                                npm        
+minipass                          2.9.0                                npm        
+minipass                          3.3.6                                npm        
+minipass                          4.2.4                                npm        
+minizlib                          1.3.3                                npm        
+minizlib                          2.1.2                                npm        
+mississippi                       3.0.0                                npm        
+mkdirp                            0.5.6                                npm        
+mkdirp                            1.0.4                                npm        
+moment                            2.29.4                               npm        
+mount                             2.31.1-0.4ubuntu3.7                  deb        
+move-concurrently                 1.0.1                                npm        
+ms                                2.0.0                                npm        
+ms                                2.1.1                                npm        
+ms                                2.1.2                                npm        
+ms                                2.1.3                                npm        
+multiarch-support                 2.27-3ubuntu1.6                      deb        
+mute-stream                       0.0.7                                npm        
+ncurses-base                      6.1-1ubuntu1.18.04                   deb        
+ncurses-bin                       6.1-1ubuntu1.18.04                   deb        
+negotiator                        0.6.3                                npm        
+node                              14.21.3                              binary     
+node-addon-api                    3.1.0                                npm        
+node-fetch                        2.6.9                                npm        
+node-fetch-npm                    2.0.2                                npm        
+node-gyp                          5.1.1                                npm        
+node-linux-pam                    0.2.1                                npm        
+nodejs                            14.21.3-deb-1nodesource1             deb        
+nopt                              4.0.3                                npm        
+nopt                              5.0.0                                npm        
+normalize-package-data            2.5.0                                npm        
+npm                               6.14.18                              npm        
+npm-audit-report                  1.3.3                                npm        
+npm-bundled                       1.1.1                                npm        
+npm-cache-filename                1.0.2                                npm        
+npm-init                          0.0.0                                npm        
+npm-install-checks                3.0.2                                npm        
+npm-lifecycle                     3.1.5                                npm        
+npm-logical-tree                  1.2.1                                npm        
+npm-normalize-package-bin         1.0.1                                npm        
+npm-package-arg                   6.1.1                                npm        
+npm-packlist                      1.4.8                                npm        
+npm-pick-manifest                 3.0.2                                npm        
+npm-profile                       4.0.4                                npm        
+npm-registry-fetch                4.0.7                                npm        
+npm-run-path                      2.0.2                                npm        
+npm-user-validate                 1.0.1                                npm        
+npmlog                            4.1.2                                npm        
+number-is-nan                     1.0.1                                npm        
+nw-pre-gyp-module-test            0.0.1                                npm        
+oauth-sign                        0.9.0                                npm        
+obconf                            1:2.0.4+git20150213-2                deb        
+object-assign                     4.1.1                                npm        
+object-inspect                    1.12.3                               npm        
+object-keys                       1.0.12                               npm        
+object.getownpropertydescriptors  2.0.3                                npm        
+on-finished                       2.4.1                                npm        
+once                              1.4.0                                npm        
+openbox                           3.6.1-7ubuntu0.1                     deb        
+opener                            1.5.2                                npm        
+openssh-client                    1:7.6p1-4ubuntu0.7                   deb        
+openssl                           1.1.1-1ubuntu2.1~18.04.21            deb        
+options                           0.0.6                                npm        
+os-homedir                        1.0.2                                npm        
+os-tmpdir                         1.0.2                                npm        
+osenv                             0.1.5                                npm        
+p-finally                         1.0.0                                npm        
+p-limit                           2.2.0                                npm        
+p-limit                           2.3.0                                npm        
+p-locate                          3.0.0                                npm        
+p-locate                          4.1.0                                npm        
+p-try                             2.2.0                                npm        
+package-json                      4.0.1                                npm        
+pacote                            9.5.12                               npm        
+parallel-transform                1.1.0                                npm        
+parseurl                          1.3.3                                npm        
+passwd                            1:4.5-1ubuntu2.2                     deb        
+path-exists                       3.0.0                                npm        
+path-exists                       4.0.0                                npm        
+path-is-absolute                  1.0.1                                npm        
+path-is-inside                    1.0.2                                npm        
+path-key                          2.0.1                                npm        
+path-parse                        1.0.7                                npm        
+path-to-regexp                    0.1.7                                npm        
+performance-now                   2.1.0                                npm        
+perl-base                         5.26.1-6ubuntu0.5                    deb        
+pify                              3.0.0                                npm        
+pinentry-curses                   1.1.0-1                              deb        
+prepend-http                      1.0.4                                npm        
+process-nextick-args              2.0.0                                npm        
+process-nextick-args              2.0.1                                npm        
+procps                            2:3.3.12-3ubuntu1.2                  deb        
+promise-inflight                  1.0.1                                npm        
+promise-retry                     1.1.1                                npm        
+promzard                          0.3.0                                npm        
+proto-list                        1.2.4                                npm        
+protoduck                         5.0.1                                npm        
+proxy-addr                        2.0.7                                npm        
+prr                               1.0.1                                npm        
+pseudomap                         1.0.2                                npm        
+psl                               1.9.0                                npm        
+publicsuffix                      20180223.1310-1                      deb        
+pulseaudio                        1:11.1-1ubuntu7.11                   deb        
+pulseaudio-utils                  1:11.1-1ubuntu7.11                   deb        
+pump                              2.0.1                                npm        
+pump                              3.0.0                                npm        
+pumpify                           1.5.1                                npm        
+punycode                          2.1.1                                npm        
+python                            2.7.15~rc1-1                         deb        
+python                            2.7.17                               binary     
+python                            3.6.9                                binary     
+python-apt                        1.6.6                                python     
+python-apt-common                 1.6.6                                deb        
+python-minimal                    2.7.15~rc1-1                         deb        
+python2.7                         2.7.17-1~18.04ubuntu1.10             deb        
+python2.7-minimal                 2.7.17-1~18.04ubuntu1.10             deb        
+python3                           3.6.7-1~18.04                        deb        
+python3-apt                       1.6.6                                deb        
+python3-dbus                      1.2.6-1                              deb        
+python3-gi                        3.26.1-2ubuntu1                      deb        
+python3-minimal                   3.6.7-1~18.04                        deb        
+python3-software-properties       0.96.24.32.20                        deb        
+python3.6                         3.6.9-1~18.04ubuntu1.9               deb        
+python3.6-minimal                 3.6.9-1~18.04ubuntu1.9               deb        
+qrcode-terminal                   0.12.0                               npm        
+qs                                6.11.0                               npm        
+qs                                6.5.3                                npm        
+query-string                      6.14.1                               npm        
+qw                                1.0.2                                npm        
+range-parser                      1.2.1                                npm        
+raw-body                          2.5.1                                npm        
+raw-body                          2.5.2                                npm        
+rc                                1.2.8                                npm        
+read                              1.0.7                                npm        
+read-cmd-shim                     1.0.5                                npm        
+read-installed                    4.0.3                                npm        
+read-package-json                 2.1.2                                npm        
+read-package-tree                 5.3.1                                npm        
+readable-stream                   1.1.14                               npm        
+readable-stream                   2.3.6                                npm        
+readable-stream                   2.3.8                                npm        
+readable-stream                   3.6.0                                npm        
+readdir-scoped-modules            1.1.0                                npm        
+readline-common                   7.0-3                                deb        
+registry-auth-token               3.4.0                                npm        
+registry-url                      3.1.0                                npm        
+request                           2.88.2                               npm        
+require-directory                 2.1.1                                npm        
+require-main-filename             2.0.0                                npm        
+resolve                           1.10.0                               npm        
+resolve-from                      4.0.0                                npm        
+retry                             0.10.1                               npm        
+retry                             0.12.0                               npm        
+rimraf                            2.7.1                                npm        
+rimraf                            3.0.2                                npm        
+run-queue                         1.0.3                                npm        
+safe-buffer                       5.1.2                                npm        
+safe-buffer                       5.2.0                                npm        
+safe-buffer                       5.2.1                                npm        
+safer-buffer                      2.1.2                                npm        
+sed                               4.4-2                                deb        
+semver                            5.7.1                                npm        
+semver                            6.3.0                                npm        
+semver                            7.3.8                                npm        
+semver-diff                       2.1.0                                npm        
+send                              0.18.0                               npm        
+sensible-utils                    0.0.12                               deb        
+serve-static                      1.15.0                               npm        
+set-blocking                      2.0.0                                npm        
+setprototypeof                    1.2.0                                npm        
+sha                               3.0.0                                npm        
+shared-mime-info                  1.9-2                                deb        
+shebang-command                   1.2.0                                npm        
+shebang-regex                     1.0.0                                npm        
+side-channel                      1.0.4                                npm        
+signal-exit                       3.0.2                                npm        
+signal-exit                       3.0.7                                npm        
+slide                             1.1.6                                npm        
+smart-buffer                      4.1.0                                npm        
+socket.io                         4.6.1                                npm        
+socket.io-adapter                 2.5.2                                npm        
+socket.io-parser                  4.2.2                                npm        
+socks                             2.3.3                                npm        
+socks-proxy-agent                 4.0.2                                npm        
+software-properties-common        0.96.24.32.20                        deb        
+sorted-object                     2.0.1                                npm        
+sorted-union-stream               2.1.3                                npm        
+spdx-correct                      3.0.0                                npm        
+spdx-exceptions                   2.1.0                                npm        
+spdx-expression-parse             3.0.0                                npm        
+spdx-license-ids                  3.0.5                                npm        
+split-on-first                    1.1.0                                npm        
+sshpk                             1.17.0                               npm        
+ssl-cert                          1.0.39                               deb        
+ssri                              6.0.2                                npm        
+statuses                          2.0.1                                npm        
+stream-each                       1.2.2                                npm        
+stream-iterate                    1.2.0                                npm        
+stream-shift                      1.0.0                                npm        
+strict-uri-encode                 2.0.0                                npm        
+string-template                   1.0.0                                npm        
+string-width                      1.0.2                                npm        
+string-width                      2.1.1                                npm        
+string-width                      3.1.0                                npm        
+string-width                      4.2.3                                npm        
+string_decoder                    0.10.31                              npm        
+string_decoder                    1.1.1                                npm        
+string_decoder                    1.3.0                                npm        
+stringify-package                 1.0.1                                npm        
+strip-ansi                        3.0.1                                npm        
+strip-ansi                        4.0.0                                npm        
+strip-ansi                        5.2.0                                npm        
+strip-ansi                        6.0.1                                npm        
+strip-eof                         1.0.0                                npm        
+strip-json-comments               2.0.1                                npm        
+sudo                              1.8.21p2-3ubuntu1.5                  deb        
+supports-color                    5.4.0                                npm        
+supports-color                    7.2.0                                npm        
+sysvinit-utils                    2.88dsf-59.10ubuntu1                 deb        
+tar                               1.29b-2ubuntu0.3                     deb        
+tar                               4.4.19                               npm        
+tar                               6.1.13                               npm        
+term-size                         1.2.0                                npm        
+text-table                        0.2.0                                npm        
+through                           2.3.8                                npm        
+through2                          2.0.3                                npm        
+timed-out                         4.0.1                                npm        
+tiny-relative-date                1.3.0                                npm        
+toidentifier                      1.0.1                                npm        
+tough-cookie                      2.5.0                                npm        
+tr46                              0.0.3                                npm        
+tunnel-agent                      0.6.0                                npm        
+tweetnacl                         0.14.5                               npm        
+type-is                           1.6.18                               npm        
+typedarray                        0.0.6                                npm        
+tzdata                            2022g-0ubuntu0.18.04                 deb        
+ubuntu-keyring                    2018.09.18.1~18.04.2                 deb        
+ubuntu-mono                       16.10+18.04.20181005-0ubuntu1        deb        
+ucf                               3.0038                               deb        
+udev                              237-3ubuntu10.56                     deb        
+uid-number                        0.0.6                                npm        
+ultron                            1.0.2                                npm        
+umask                             1.1.0                                npm        
+unique-filename                   1.1.1                                npm        
+unique-slug                       2.0.0                                npm        
+unique-string                     1.0.0                                npm        
+unpipe                            1.0.0                                npm        
+unzip-response                    2.0.1                                npm        
+update-notifier                   2.5.0                                npm        
+uri-js                            4.4.1                                npm        
+url-parse-lax                     1.0.0                                npm        
+util-deprecate                    1.0.2                                npm        
+util-extend                       1.0.3                                npm        
+util-linux                        2.31.1-0.4ubuntu3.7                  deb        
+util-promisify                    2.1.0                                npm        
+utils-merge                       1.0.1                                npm        
+uuid                              3.4.0                                npm        
+validate-npm-package-license      3.0.4                                npm        
+validate-npm-package-name         3.0.0                                npm        
+vary                              1.1.2                                npm        
+verror                            1.10.0                               npm        
+wcwidth                           1.0.1                                npm        
+webidl-conversions                3.0.1                                npm        
+whatwg-url                        5.0.0                                npm        
+which                             1.3.1                                npm        
+which-module                      2.0.0                                npm        
+wide-align                        1.1.2                                npm        
+wide-align                        1.1.5                                npm        
+widest-line                       2.0.1                                npm        
+worker-farm                       1.7.0                                npm        
+wrap-ansi                         5.1.0                                npm        
+wrap-ansi                         6.2.0                                npm        
+wrappy                            1.0.2                                npm        
+write-file-atomic                 2.4.3                                npm        
+ws                                1.1.5                                npm        
+ws                                8.11.0                               npm        
+wsgiref                           0.1.2                                python     
+x11-apps                          7.7+6ubuntu1                         deb        
+x11-common                        1:7.7+19ubuntu7.1                    deb        
+x11-session-utils                 7.7+2build1                          deb        
+x11-utils                         7.7+3build1                          deb        
+x11-xkb-utils                     7.7+3ubuntu0.18.04.1                 deb        
+x11-xserver-utils                 7.7+7build1                          deb        
+x11proto-core-dev                 2018.4-4                             deb        
+x11proto-dev                      2018.4-4                             deb        
+xbitmaps                          1.1.1-2                              deb        
+xdg-basedir                       3.0.0                                npm        
+xfonts-base                       1:1.0.4+nmu1                         deb        
+xfonts-encodings                  1:1.0.4-2                            deb        
+xfonts-utils                      1:7.7+6                              deb        
+xkb-data                          2.23.1-1ubuntu1.18.04.1              deb        
+xorg-sgml-doctools                1:1.11-1                             deb        
+xorgxrdp                          0.9.5-2                              deb        
+xrdp                              0.9.5-2                              deb        
+xserver-common                    2:1.19.6-1ubuntu4.14                 deb        
+xserver-xorg-core                 2:1.19.6-1ubuntu4.14                 deb        
+xserver-xorg-video-amdgpu         18.0.1-1                             deb        
+xserver-xorg-video-ati            1:18.0.1-1                           deb        
+xserver-xorg-video-intel          2:2.99.917+git20171229-1             deb        
+xserver-xorg-video-radeon         1:18.0.1-1                           deb        
+xtend                             4.0.1                                npm        
+xterm                             330-1ubuntu2.2                       deb        
+xtrans-dev                        1.3.5-1                              deb        
+xutils                            1:7.7+19ubuntu7.1                    deb        
+y18n                              4.0.1                                npm        
+y18n                              4.0.3                                npm        
+yallist                           2.1.2                                npm        
+yallist                           3.0.3                                npm        
+yallist                           3.1.1                                npm        
+yallist                           4.0.0                                npm        
+yargs                             14.2.3                               npm        
+yargs                             15.4.1                               npm        
+yargs-parser                      15.0.1                               npm        
+yargs-parser                      18.1.3                               npm        
+zlib1g                            1:1.2.11.dfsg-0ubuntu2.2             deb        
