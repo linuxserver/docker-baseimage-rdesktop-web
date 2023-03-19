@@ -4,7 +4,7 @@ NAME                              VERSION                              TYPE
 @socket.io/component-emitter      3.1.0                                npm        
 @types/cookie                     0.4.1                                npm        
 @types/cors                       2.8.13                               npm        
-@types/node                       18.15.0                              npm        
+@types/node                       18.15.3                              npm        
 GClient                           1.1.2                                npm        
 JSONStream                        1.3.5                                npm        
 PyGObject                         3.26.1                               python     
@@ -158,7 +158,7 @@ e2fsprogs                         1.44.1-1ubuntu1.3                    deb
 ecc-jsbn                          0.1.2                                npm        
 editor                            1.0.0                                npm        
 ee-first                          1.1.1                                npm        
-ejs                               3.1.8                                npm        
+ejs                               3.1.9                                npm        
 emoji-regex                       7.0.3                                npm        
 emoji-regex                       8.0.0                                npm        
 encodeurl                         1.0.2                                npm        
@@ -398,7 +398,7 @@ libgmp10                          2:6.1.2+dfsg-2ubuntu0.1              deb
 libgnutls30                       3.5.18-1ubuntu1.6                    deb        
 libgpg-error0                     1.27-6                               deb        
 libgraphite2-3                    1.3.11-2                             deb        
-libgssapi-krb5-2                  1.16-2ubuntu0.3                      deb        
+libgssapi-krb5-2                  1.16-2ubuntu0.4                      deb        
 libgssapi3-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
 libgtk-3-0                        3.22.30-1ubuntu4                     deb        
 libgtk-3-common                   3.22.30-1ubuntu4                     deb        
@@ -420,12 +420,12 @@ libjpeg-turbo8                    1.5.2-0ubuntu5.18.04.6               deb
 libjpeg8                          8c-2ubuntu8                          deb        
 libjson-glib-1.0-0                1.4.2-3ubuntu0.18.04.1               deb        
 libjson-glib-1.0-common           1.4.2-3ubuntu0.18.04.1               deb        
-libk5crypto3                      1.16-2ubuntu0.3                      deb        
+libk5crypto3                      1.16-2ubuntu0.4                      deb        
 libkeyutils1                      1.5.9-9.2ubuntu2.1                   deb        
 libkmod2                          24-1ubuntu3.5                        deb        
 libkrb5-26-heimdal                7.5.0+dfsg-1ubuntu0.4                deb        
-libkrb5-3                         1.16-2ubuntu0.3                      deb        
-libkrb5support0                   1.16-2ubuntu0.3                      deb        
+libkrb5-3                         1.16-2ubuntu0.4                      deb        
+libkrb5support0                   1.16-2ubuntu0.4                      deb        
 libksba8                          1.3.5-2ubuntu0.18.04.2               deb        
 liblcms2-2                        2.9-1ubuntu0.1                       deb        
 libldap-2.4-2                     2.4.45+dfsg-1ubuntu1.11              deb        
@@ -737,7 +737,7 @@ pumpify                           1.5.1                                npm
 punycode                          2.1.1                                npm        
 python                            2.7.15~rc1-1                         deb        
 python                            2.7.17                               binary     
-python                            3 6                                   binary     
+python                            3.6.9                                binary     
 python-apt                        1.6.6                                python     
 python-apt-common                 1.6.6                                deb        
 python-minimal                    2.7.15~rc1-1                         deb        
