@@ -13,6 +13,8 @@ RUN \
     libvorbis \
     pango \
     wget && \
+  pacman -Sy --noconfirm --assume-installed=kwayland,frameworkintegration,kirigami2 \
+    breeze && \
   echo "**** prep abc user ****" && \
   usermod -s /bin/bash abc && \
   echo '%abc ALL=(ALL) NOPASSWD:ALL' > /etc/sudoers.d/abc && \
