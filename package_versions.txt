@@ -11,7 +11,7 @@ adwaita-cursor-theme                                          42.0-1.fc36       
 adwaita-icon-theme                                            42.0-1.fc36                           rpm        
 agent-base                                                    6.0.2                                 npm        
 alsa-lib                                                      1.2.8-1.fc36                          rpm        
-alternatives                                                  1.21-1.fc36                           rpm        
+alternatives                                                  1.22-1.fc36                           rpm        
 ansi-regex                                                    2.1.1                                 npm        
 ansi-regex                                                    5.0.1                                 npm        
 ansi-styles                                                   4.3.0                                 npm        
@@ -69,7 +69,7 @@ cracklib                                                      2.9.6-28.fc36     
 criu                                                          3.17.1-2.fc36                         rpm        
 crypto-policies                                               20220428-1.gitdfb10ea.fc36            rpm        
 cups-libs                                                     1:2.4.2-10.fc36                       rpm        
-curl                                                          7.82.0-13.fc36                        rpm        
+curl                                                          7.82.0-14.fc36                        rpm        
 cyrus-sasl-lib                                                2.1.27-18.fc36                        rpm        
 dbus                                                          1:1.14.4-1.fc36                       rpm        
 dbus-broker                                                   33-1.fc36                             rpm        
@@ -277,7 +277,7 @@ libcloudproviders                                             0.3.1-5.fc36      
 libcom_err                                                    1.46.5-2.fc36                         rpm        
 libcomps                                                      0.1.18                                python     
 libcomps                                                      0.1.18-2.fc36                         rpm        
-libcurl                                                       7.82.0-13.fc36                        rpm        
+libcurl                                                       7.82.0-14.fc36                        rpm        
 libdatrie                                                     0.2.13-3.fc36                         rpm        
 libdb                                                         5.3.28-51.fc36                        rpm        
 libdnf                                                        0.68.0-1.fc36                         rpm        
@@ -513,7 +513,7 @@ sed                                                           4.8-10.fc36       
 selinux-policy                                                36.17-1.fc36                          rpm        
 selinux-policy-targeted                                       36.17-1.fc36                          rpm        
 semver                                                        6.3.0                                 npm        
-semver                                                        7.4.0                                 npm        
+semver                                                        7.5.0                                 npm        
 send                                                          0.18.0                                npm        
 serve-static                                                  1.15.0                                npm        
 set-blocking                                                  2.0.0                                 npm        
@@ -584,8 +584,8 @@ xorg-x11-drv-amdgpu                                           23.0.0-1.fc36     
 xorg-x11-drv-ati                                              19.1.0-7.fc36                         rpm        
 xorg-x11-drv-intel                                            2.99.917-52.20200205.fc36             rpm        
 xorg-x11-drv-libinput                                         1.2.1-1.fc36                          rpm        
-xorg-x11-server-Xorg                                          1.20.14-18.fc36                       rpm        
-xorg-x11-server-common                                        1.20.14-18.fc36                       rpm        
+xorg-x11-server-Xorg                                          1.20.14-21.fc36                       rpm        
+xorg-x11-server-common                                        1.20.14-21.fc36                       rpm        
 xorg-x11-xauth                                                1:1.1.1-2.fc36                        rpm        
 xorg-x11-xinit                                                1.4.0-14.fc36                         rpm        
 xorgxrdp                                                      0.9.19-5.fc36                         rpm        
