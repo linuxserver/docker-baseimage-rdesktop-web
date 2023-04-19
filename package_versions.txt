@@ -840,7 +840,7 @@ safer-buffer                      2.1.2                              npm
 sed                               4.7-1                              deb        
 semver                            5.7.1                              npm        
 semver                            6.3.0                              npm        
-semver                            7.4.0                              npm        
+semver                            7.5.0                              npm        
 semver-diff                       2.1.0                              npm        
 send                              0.18.0                             npm        
 sensible-utils                    0.0.12+nmu1                        deb        
@@ -893,7 +893,7 @@ strip-ansi                        5.2.0                              npm
 strip-ansi                        6.0.1                              npm        
 strip-eof                         1.0.0                              npm        
 strip-json-comments               2.0.1                              npm        
-sudo                              1.8.31-1ubuntu1.4                  deb        
+sudo                              1.8.31-1ubuntu1.5                  deb        
 supports-color                    5.4.0                              npm        
 supports-color                    7.2.0                              npm        
 systemd                           245.4-4ubuntu3.21                  deb        
@@ -916,7 +916,7 @@ tunnel-agent                      0.6.0                              npm
 tweetnacl                         0.14.5                             npm        
 type-is                           1.6.18                             npm        
 typedarray                        0.0.6                              npm        
-tzdata                            2022g-0ubuntu0.20.04.1             deb        
+tzdata                            2023c-0ubuntu0.20.04.0             deb        
 ubuntu-keyring                    2020.02.11.4                       deb        
 ubuntu-mono                       19.04-0ubuntu3                     deb        
 ucf                               3.0038+nmu1                        deb        
