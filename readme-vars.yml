@@ -2,6 +2,12 @@
 
 # project information
 project_name: baseimage-rdesktop-web
+
+project_deprecation_status: true
+project_deprecation_message: |
+  This base image has been replaced by:
+  https://github.com/linuxserver/docker-baseimage-kasmvnc
+
 full_custom_readme: |
   {% raw -%}
   [linuxserverurl]: https://linuxserver.io
