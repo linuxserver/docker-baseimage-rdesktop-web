@@ -1,0 +1,19 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+echo '
+╔════════════════════════════════════════════════════╗
+╠════════════════════════════════════════════════════╣
+║                                                    ║
+║             This image is deprecated.              ║
+║      We will not offer support for this image      ║
+║            and it will not be updated.             ║
+║                                                    ║
+╠════════════════════════════════════════════════════╣
+╚════════════════════════════════════════════════════╝
+
+This base image has been replaced by:
+https://github.com/linuxserver/docker-baseimage-kasmvnc
+
+
+══════════════════════════════════════════════════════'
